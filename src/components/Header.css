@@ -1,0 +1,141 @@
+.headerLogoAndText {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+}
+
+.embaLogo {
+  padding: 20px;
+  width: 150px;
+}
+
+.headerText {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  padding-left: 10px;
+}
+
+.bolderFont {
+  font-weight: 600;
+  color: black;
+  opacity: 50%;
+}
+
+.lineFourHeader {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+}
+
+.lighterFont {
+  font-weight: 200;
+  padding-left: 4px;
+  color: black;
+  opacity: 50%;
+}
+
+p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.navLinksBlock {
+  flex-direction: column;
+  margin-left: -13rem;
+  margin-top: 0.3rem;
+  width: 200px;
+  text-align: right;
+}
+
+#menuNavText {
+  font-size: 12px;
+  margin-left: -3rem;
+  margin-top: 1.2rem;
+  opacity: 50%;
+  color: black;
+  position: absolute;
+}
+
+.navLinks {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.navLinks:hover {
+  color: black;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+/* Hover - Practice Page Nav */
+#hover {
+  border-right: 7px solid white;
+  height: 55px;
+  /* margin-left: 66vw; */
+  width: 10px;
+  right: 60px;
+
+  /* margin-left: 89vw; */
+  /* margin-right: 95px; */
+  position: absolute;
+  /* padding-right: 60px; */
+}
+
+#hover:hover {
+  border-right: 7px solid black;
+  height: 55px;
+  /* margin-left: 66vw; */
+  width: 10px;
+
+  right: 60px;
+
+  /* margin-left: 91vw;
+  margin-right: 95px; */
+  position: absolute;
+}
+
+#hover:hover #menuNavText {
+  visibility: hidden;
+  /* display: none; */
+}
+
+#hover:hover,
+#navLinksHover:hover {
+  opacity: 1;
+  color: black;
+}
+
+#navLinksHover {
+  -moz-transition-duration: 0.7s;
+  -o-transition-duration: 0.7s;
+  -webkit-transition-duration: 0.7s;
+  color: white;
+  opacity: 0;
+  transition-duration: 0.7s;
+}
+
+#menuNavText:hover {
+  opacity: 0;
+}
+
+/* #menuNavTextContainer:hover {
+  opacity: 0;
+} */
+
+@media (max-width: 700px) {
+  .headerLogoAndText {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+
+  .embaLogo {
+    padding: 0px;
+    width: 150px;
+  }
+}

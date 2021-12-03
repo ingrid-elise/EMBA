@@ -1,0 +1,69 @@
+@font-face {
+  font-family: HelveticaNeueLTStd;
+  src: url("../src/Helvetica\ Neue\ LT\ Std/HelveticaNeueLTStd-Th.otf");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.projectsPageBackground {
+  background-color: white;
+}
+
+.projectsPage {
+  display: flex;
+  flex-direction: column;
+  font-family: HelveticaNeueLTStd;
+  line-height: 5px;
+  margin: none;
+  padding: none;
+}
+
+@media (max-width: 700px) {
+  .projectsPageBackground {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+  }
+}
+
+/* Scroll Magic CSS */
+
+.section {
+  height: auto;
+}
+
+.test {
+  transition: opacity 1s ease-in-out;
+  /* width: 500px;
+  height: 500px; */
+  /* background-color: red; */
+  margin: 0 !important;
+  opacity: 0;
+}
+
+.zap {
+  height: auto;
+  opacity: 1;
+}
+
+.sectionFRP {
+  height: 10vh;
+}
+
+.testFRP {
+  transition: opacity 0.5s ease-in-out;
+  /* width: 500px;
+  height: 500px; */
+  /* background-color: red; */
+  margin: 0 !important;
+  opacity: 0;
+}
+
+.zapFRP {
+  height: auto;
+  opacity: 1;
+}

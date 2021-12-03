@@ -1,0 +1,311 @@
+.teamTitle {
+  color: white;
+  padding-left: 965px;
+  margin-top: 100px;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.titlePractice {
+  line-height: initial;
+  font-weight: 200;
+  font-size: 65px;
+  margin-left: 60px;
+  margin-top: 0;
+  padding-bottom: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.practiceTextAndImg {
+  display: flex;
+  flex-direction: row;
+}
+
+.practiceDropdowns {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 600px;
+  margin-left: 65px;
+}
+
+.titleAndNumber {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dropdownTitle {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.shortline {
+  border-top: 4px solid white;
+  width: 30px;
+  padding-top: 6px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.aboutParagraph {
+  padding-top: 10px;
+}
+
+.dropdownText {
+  /* margin-left: 150px;
+  margin-right: 20px; */
+  transition: 0.3s ease-in-out; /* all removed */
+}
+
+.paragraphText {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-weight: 200;
+}
+
+.awareness {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.philosophy {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.purpose {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.dylanHeadShot {
+  height: 400px;
+  padding-left: 100px;
+  margin-top: -110px;
+  border-right: 60px solid lightgrey;
+}
+
+.caption {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-left: 300px;
+}
+
+.captionFirstLine {
+  display: flex;
+  flex-direction: row;
+}
+
+.boldTextFirstLine {
+  font-weight: 600;
+  padding-right: 5px;
+}
+
+.normalTextFirstLine {
+  font-weight: 200;
+}
+
+.captionSmallText {
+  font-weight: 200;
+  font-size: 11px;
+}
+
+/* Hover - About Section */
+#aboutSectionHover {
+  color: white;
+  opacity: 1;
+}
+
+#aboutSectionHover:hover {
+  color: black;
+}
+
+#aboutSectionHover:hover + #aboutTextHover {
+  opacity: 1;
+  /* height: 160px; */
+  height: auto;
+  color: black;
+}
+
+#aboutTextHover {
+  margin-left: 150px;
+  margin-right: 20px;
+
+  opacity: 0;
+  height: 0px;
+  color: white;
+  -webkit-transition-duration: 0.7s;
+  -moz-transition-duration: 0.7s;
+  -o-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+}
+
+/* Hover - Awareness Section */
+#awarenessSectionHover {
+  color: white;
+  opacity: 1;
+}
+
+#awarenessSectionHover:hover {
+  color: black;
+}
+
+#awarenessSectionHover:hover + #awarenessTextHover {
+  opacity: 1;
+  /* height: 250px; */
+  height: auto;
+  color: black;
+}
+
+#awarenessTextHover {
+  margin-left: 150px;
+  margin-right: 20px;
+
+  opacity: 0;
+  height: 0px;
+  color: white;
+  -webkit-transition-duration: 0.7s;
+  -moz-transition-duration: 0.7s;
+  -o-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+}
+
+/* Hover - Philosophy Section */
+#philosophySectionHover {
+  color: white;
+  opacity: 1;
+}
+
+#philosophySectionHover:hover {
+  color: black;
+}
+
+#philosophySectionHover:hover + #philosophyTextHover {
+  opacity: 1;
+  /* height: 110px; */
+  height: auto;
+  color: black;
+}
+
+#philosophyTextHover {
+  opacity: 0;
+  height: 0px;
+  color: white;
+  -webkit-transition-duration: 0.7s;
+  -moz-transition-duration: 0.7s;
+  -o-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+}
+
+/* Hover - Purpose Section */
+#purposeSectionHover {
+  color: white;
+  opacity: 1;
+}
+
+#purposeSectionHover:hover {
+  color: black;
+}
+
+#purposeSectionHover:hover + #purposeTextHover {
+  opacity: 1;
+  /* height: 200px; */
+  height: auto;
+
+  color: black;
+}
+
+#purposeTextHover {
+  opacity: 0;
+  height: 0px;
+  color: white;
+  -webkit-transition-duration: 0.7s;
+  -moz-transition-duration: 0.7s;
+  -o-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+}
+
+@media (max-width: 700px) {
+  .mobileDivColumn {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .practiceTextAndImg {
+    flex-direction: column;
+  }
+
+  .teamTitle {
+    display: none;
+  }
+
+  .titlePractice {
+    margin-top: 100px;
+    padding-bottom: 5px;
+  }
+
+  .practiceDropdowns {
+    width: 300px;
+    margin-left: 60px;
+  }
+
+  .paragraphText {
+    margin-top: 5px;
+    margin-left: -100px;
+    width: 250px; /* was 300px */
+    /* margin-left: 0px;
+    margin-right: 20px; */
+  }
+
+  .dropdownText {
+    margin-left: 150px;
+    margin-right: 20px;
+    transition: 0.3s ease-in-out; /* removed 'all' */
+  }
+
+  /* #aboutSectionHover:hover + #aboutTextHover {
+    height: 230px;
+  } */
+
+  /* #awarenessSectionHover:hover + #awarenessTextHover {
+    height: 310px;
+  }
+
+  #philosophySectionHover:hover + #philosophyTextHover {
+    height: 150px;
+  }
+
+  #purposeSectionHover:hover + #purposeTextHover {
+    height: 150px;
+  } */
+
+  .dylanHeadShot {
+    height: 400px;
+    padding-left: 20px;
+    border-right: 60px solid lightgrey;
+  }
+
+  .imageBlock {
+    margin-top: 200px;
+  }
+
+  .caption {
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+}

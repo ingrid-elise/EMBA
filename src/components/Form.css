@@ -1,0 +1,73 @@
+form {
+  width: auto;
+}
+
+.formContainer {
+  border: 1px solid black;
+  padding: 30px;
+  width: 35vw;
+  height: 45vh;
+}
+
+input,
+textarea {
+  background-color: #bd9581;
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: black;
+  width: 35vw;
+  padding: 3px 0px;
+  margin-top: 25px;
+  resize: vertical;
+  display: block;
+  resize: none;
+  font-family: HelveticaNeue;
+}
+
+textarea {
+  height: 100px;
+}
+
+input:focus,
+textarea:focus {
+  background-color: #bd9581;
+}
+
+::placeholder {
+  color: black; /*  or white? */
+}
+
+.shortLineBelow {
+  width: 60px;
+  height: 0px;
+  border: 2px solid #000000;
+}
+
+.contactUsButton {
+  width: 10vw;
+  padding: 9px 44px;
+  border: 1px solid black;
+  cursor: pointer;
+  margin-top: 62px;
+  background-color: #bd9581;
+  color: black;
+  font-family: HelveticaNeue;
+}
+
+.contactUsButton:hover {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 45px;
+  transition: 0.5s;
+}
+
+.buttonDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.buttonDiv .contactUsButton .input {
+  text-align: center;
+}

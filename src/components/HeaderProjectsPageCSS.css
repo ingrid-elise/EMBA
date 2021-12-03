@@ -1,0 +1,221 @@
+.headerLogoAndTextProjectsPage {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+}
+
+.embaLogo {
+  padding: 20px;
+  width: 150px;
+}
+
+.headerText {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  padding-left: 10px;
+}
+
+.bolderFont {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.lineFourHeader {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+}
+
+.lighterFont {
+  font-weight: 200;
+  padding-left: 4px;
+}
+
+p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.navLinksBlock {
+  display: flex;
+  flex-direction: column;
+  margin-left: -13rem;
+  margin-top: 0.3rem;
+  width: 200px;
+  text-align: right;
+}
+
+#menuNavText {
+  font-size: 12px;
+  margin-left: -3rem;
+  margin-top: 1.2rem;
+  opacity: 0.5;
+  position: absolute;
+}
+
+.navLinks {
+  color: white;
+  text-decoration: none;
+  font-size: 12px; /* */
+}
+
+.navLinks:hover {
+  color: black;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+/* Hover - Practice Page Nav */
+#hoverProjectsPage {
+  border-right: 7px solid black;
+  height: 55px;
+  width: 10px;
+  right: 60px;
+  position: absolute;
+}
+
+#hoverProjectsPage:hover {
+  border-right: 7px solid black;
+  height: 55px;
+  width: 10px;
+  right: 60px;
+  position: absolute;
+}
+
+#hoverProjectsPage:hover #menuNavText {
+  visibility: hidden;
+  /* display: none; */
+}
+
+#hoverProjectsPage:hover,
+#navLinksHover:hover {
+  color: black;
+  opacity: 1;
+}
+
+#navLinksHover {
+  -moz-transition-duration: 0.7s;
+  -o-transition-duration: 0.7s;
+  -webkit-transition-duration: 0.7s;
+  color: white;
+  opacity: 0;
+  transition-duration: 0.5s;
+}
+
+#menuNavText:hover {
+  opacity: 0;
+}
+
+nav {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .embaLogo {
+    padding-left: 10px;
+  }
+
+  #hoverProjectsPage {
+    border-right: 7px solid black;
+    height: 55px;
+    width: 10px;
+    right: 20px;
+    position: absolute;
+  }
+
+  #hoverProjectsPage:hover {
+    /* border-right: 7px solid red; */
+    height: 55px;
+    width: 10px;
+    right: 20px;
+    position: absolute;
+  }
+
+  #hoverProjectsPage:hover #menuNavText {
+    visibility: hidden;
+    /* display: none; */
+  }
+  #hoverProjectsPage:hover {
+    color: black;
+    opacity: 1;
+
+    /* background-color: pink; */
+  }
+
+  #navLinksHover:hover {
+    color: black;
+    opacity: 1;
+    /* background-color: pink; */
+    /* height: 100vh;
+    width: 100vw; */
+    margin-top: -15px;
+    margin-left: -200px;
+    position: absolute;
+    padding-top: 20px;
+  }
+
+  #menuNavText {
+    color: black;
+  }
+  .navLinks:hover {
+    color: black;
+    opacity: 1;
+  }
+
+  .navLinks {
+    color: black;
+    /* padding-right: 20px; */
+  }
+
+  .headerLogoAndTextProjectsPage {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+
+  .headerText {
+    position: absolute;
+    padding-left: 170px;
+  }
+
+  .headerText > p {
+    font-size: 10px;
+  }
+
+  .lineFourHeader {
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+  }
+
+  .lineFourHeader > p {
+    font-size: 10px;
+  }
+}
+
+/* 
+.navLinksBlock {
+  display: flex;
+  flex-direction: column;
+  margin-left: -13rem;
+  margin-top: 0.3rem;
+  width: 200px;
+  text-align: right;
+}
+
+#navLinksHover {
+  -moz-transition-duration: 0.7s;
+  -o-transition-duration: 0.7s;
+  -webkit-transition-duration: 0.7s;
+  color: white;
+  opacity: 0;
+  transition-duration: 0.5s;
+}
+
+
+*/

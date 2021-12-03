@@ -1,0 +1,228 @@
+body {
+  background-color: #bd9581;
+}
+
+.workTogetherForm {
+  width: 40vw;
+  padding-left: 60px;
+  /* margin-right: 50px; */
+}
+
+.titleWorkTogether {
+  line-height: 0%;
+  margin-top: 22px;
+  padding-bottom: 20px;
+  font-weight: 200;
+  font-size: 65px;
+  color: white;
+  text-decoration: none;
+}
+
+.formAndTitleRow {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  padding-top: 100px;
+  justify-content: space-between;
+}
+
+.formAndTitleCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.workTogetherTextAndForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.workTogetherDropdowns {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 40vw;
+  padding-right: 60px;
+  /* margin-left: 65px; */
+}
+
+.titleAndNumber {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dropdownTitle {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.shortline {
+  border-top: 4px solid white;
+  width: 30px;
+  padding-top: 6px;
+  content: "";
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.servicesParagraph {
+  padding-top: 10px;
+}
+
+.dropdownTextWorkTogether {
+  margin-left: 150px;
+  margin-right: 20px;
+  /* transition: all 0.3s ease-in-out; */
+}
+
+.paragraphTextWorkTogether {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-weight: 200;
+}
+
+.sectors {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.initialConsultation {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.fees {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.underlineText {
+  text-decoration: underline;
+}
+
+/* CSS for Hover */
+/* Hover - Services Section */
+
+#servicesHover {
+  color: white;
+  opacity: 1;
+}
+
+#servicesHover:hover {
+  color: black;
+}
+
+#servicesHover:hover + #servicesHoverText {
+  opacity: 1;
+  height: 200px;
+  color: black;
+}
+
+#servicesHoverText {
+  opacity: 0;
+  height: 0px;
+  color: white;
+  -webkit-transition-duration: 0.7s;
+  -moz-transition-duration: 0.7s;
+  -o-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+}
+
+/* Hover - Sectors Section */
+
+#sectorsHover {
+  color: white;
+  opacity: 1;
+}
+
+#sectorsHover:hover {
+  color: black;
+}
+
+#sectorsHover:hover + #sectorsHoverText {
+  opacity: 1;
+  height: 110px;
+  color: black;
+}
+
+#sectorsHoverText {
+  opacity: 0;
+  height: 0px;
+  color: white;
+  -webkit-transition-duration: 0.7s;
+  -moz-transition-duration: 0.7s;
+  -o-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+}
+
+/* Hover - Initial Consult Section */
+
+#initialConHover {
+  color: white;
+  opacity: 1;
+}
+
+#initialConHover:hover {
+  color: black;
+}
+
+#initialConHover:hover + #initialConHoverText {
+  opacity: 1;
+  height: 100px;
+  color: black;
+}
+
+#initialConHoverText {
+  opacity: 0;
+  height: 0px;
+  color: white;
+  -webkit-transition-duration: 0.7s;
+  -moz-transition-duration: 0.7s;
+  -o-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+}
+
+/* Hover - Fees Section */
+
+#feesHover {
+  color: white;
+  opacity: 1;
+}
+
+#feesHover:hover {
+  color: black;
+}
+
+#feesHover:hover + #feesHoverText {
+  opacity: 1;
+  height: 200px;
+  color: black;
+}
+
+#feesHoverText {
+  opacity: 0;
+  height: 0px;
+  color: white;
+  -webkit-transition-duration: 0.7s;
+  -moz-transition-duration: 0.7s;
+  -o-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+}
+
+/* @media (max-width: 700px) {
+  .dropdownText {
+    margin-left: 0px;
+  }
+} */

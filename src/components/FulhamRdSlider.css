@@ -1,0 +1,34 @@
+.App-FulhamRd {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 64.5vw;
+}
+
+.slides-FulhamRd {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  /* border: red 1px solid; */
+}
+
+.slideImgs-FulhamRd {
+  height: 600px;
+  width: auto;
+  /* border: yellow 1px solid; */
+}
+
+.slides-FulhamRd > div {
+  display: flex;
+  flex-shrink: 0;
+  height: 600px;
+  width: auto;
+  scroll-snap-align: start;
+  scroll-behavior: smooth;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  /* border: pink 1px solid; */
+}

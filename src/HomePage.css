@@ -1,0 +1,176 @@
+body {
+  background-color: #d2a57b;
+}
+
+p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.homePageLinksAndNumbers {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin-left: 170px;
+  align-items: baseline;
+  margin-top: 100px;
+}
+
+.number {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 57px;
+}
+
+.homePageLinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.singleLinkPractice {
+  position: relative;
+  line-height: 0.48;
+  font-weight: 200;
+  font-size: 65px;
+  margin-left: 30px;
+  padding-bottom: 5px;
+  margin-bottom: 43px;
+  color: white;
+  text-decoration: none;
+}
+
+.singleLinkWorkTogether {
+  position: relative;
+  line-height: 0.48;
+  font-weight: 200;
+  font-size: 65px;
+  margin-left: 30px;
+  padding-bottom: 5px;
+  margin-bottom: 45px;
+  color: white;
+  text-decoration: none;
+}
+
+.singleLinkProjects {
+  position: relative;
+  line-height: 0.48;
+  font-weight: 200;
+  font-size: 65px;
+  margin-left: 30px;
+  padding-bottom: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.singleLinkPractice:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 280px;
+  height: 1px;
+  background-color: white;
+  transition: 0.6s width linear;
+}
+
+.singleLinkPractice:hover:after {
+  width: 0px;
+  background-color: black;
+  color: black;
+}
+
+.singleLinkWorkTogether:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 500px;
+  height: 1px;
+  background-color: white;
+  transition: 0.6s width linear;
+}
+
+.singleLinkWorkTogether:hover:after {
+  width: 0px;
+  background-color: black;
+  color: black;
+}
+
+.singleLinkProjects:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 300px;
+  height: 1px;
+  background-color: white;
+  transition: 0.6s width linear;
+}
+
+.singleLinkProjects:hover:after {
+  width: 0px;
+  background-color: black;
+  color: black;
+}
+
+.singleLinkPractice:hover {
+  color: black;
+}
+
+.singleLinkWorkTogether:hover {
+  color: black;
+}
+
+.singleLinkProjects:hover {
+  color: black;
+}
+
+#practiceLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  width: 400;
+  transform: scaleX(1);
+}
+
+#workTogetherLink,
+#projectsLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+}
+
+@media (max-width: 700px) {
+  .homePageLinksAndNumbers {
+    margin-left: 20px;
+  }
+
+  .singleLinkPractice,
+  .singleLinkProjects,
+  .singleLinkWorkTogether {
+    font-size: 40px;
+    margin-left: 10px;
+  }
+
+  .singleLinkPractice {
+    margin-bottom: 52px;
+  }
+
+  .singleLinkWorkTogether {
+    margin-bottom: 58px;
+  }
+
+  .singleLinkWorkTogether:after,
+  .singleLinkPractice:after,
+  .singleLinkProjects:after {
+    width: 310px;
+  }
+}
+
+/* #workTogetherLink:hover {
+  color: black;
+}
+
+#projectsLink:hover {
+  color: black;
+} */
