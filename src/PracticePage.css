@@ -137,7 +137,6 @@
 
 #aboutSectionHover:hover + #aboutTextHover {
   opacity: 1;
-  /* height: 160px; */
   height: auto;
   color: black;
 }
@@ -148,11 +147,12 @@
 
   opacity: 0;
   height: 0px;
-  color: white;
+  color: #d2a57b;
   -webkit-transition-duration: 0.7s;
   -moz-transition-duration: 0.7s;
   -o-transition-duration: 0.7s;
   transition-duration: 0.7s;
+  transition-property: color;
 }
 
 /* Hover - Awareness Section */
@@ -178,11 +178,12 @@
 
   opacity: 0;
   height: 0px;
-  color: white;
+  color: #d2a57b;
   -webkit-transition-duration: 0.7s;
   -moz-transition-duration: 0.7s;
   -o-transition-duration: 0.7s;
   transition-duration: 0.7s;
+  transition-property: color;
 }
 
 /* Hover - Philosophy Section */
@@ -205,11 +206,12 @@
 #philosophyTextHover {
   opacity: 0;
   height: 0px;
-  color: white;
+  color: #d2a57b;
   -webkit-transition-duration: 0.7s;
   -moz-transition-duration: 0.7s;
   -o-transition-duration: 0.7s;
   transition-duration: 0.7s;
+  transition-property: color;
 }
 
 /* Hover - Purpose Section */
@@ -233,11 +235,12 @@
 #purposeTextHover {
   opacity: 0;
   height: 0px;
-  color: white;
+  color: #d2a57b;
   -webkit-transition-duration: 0.7s;
   -moz-transition-duration: 0.7s;
   -o-transition-duration: 0.7s;
   transition-duration: 0.7s;
+  transition-property: color;
 }
 
 @media (max-width: 700px) {

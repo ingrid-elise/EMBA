@@ -41,9 +41,12 @@ function PracticePage() {
               </div>
               <div className="dropdownText" id="awarenessTextHover">
                 <div className="paragraphText">
+                  <p>
                   The economy of construction is not aligned with the ecology of
                   our planet and consequently cities, urban environments and
                   buildings do not share a symbiotic relationship with nature.
+                  </p>
+                  
                   <p>
                     As a result of overlooking the potential integration of
                     available technologies and natural ecologies, many in-use

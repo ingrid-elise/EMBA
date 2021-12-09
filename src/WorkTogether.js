@@ -7,7 +7,6 @@ import HeaderWorkTogetherPage from "./components/HeaderWorkTogetherPage";
 function WorkTogether() {
   return (
     <div className="workTogetherPage">
-      {/* <Header /> */}
       <HeaderWorkTogetherPage />
       <div>
         <div className="formAndTitleRow">

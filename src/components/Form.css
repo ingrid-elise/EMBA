@@ -71,3 +71,31 @@ textarea:focus {
 .buttonDiv .contactUsButton .input {
   text-align: center;
 }
+
+@media (max-width: 700px) {
+  .formContainer {
+    width: 70vw;
+    height: auto;
+  }
+
+  input,
+  textarea {
+    width: 70vw;
+  }
+
+  .contactUsButton {
+    width: 20vw;
+    padding: 9px 0px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 62px;
+    background-color: #bd9581;
+    color: black;
+    font-family: HelveticaNeue;
+  }
+
+  .contactUsButton:hover {
+    padding: 10px 0px;
+    transition: 0.5s;
+  }
+}
