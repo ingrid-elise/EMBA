@@ -1,0 +1,143 @@
+.headerLogoAndTextPages {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+  }
+  
+  .embaLogoPages {
+    padding: 20px;
+    width: 150px;
+  }
+  
+  .headerTextPages {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    padding-left: 10px;
+  }
+  
+  .bolderFontPages {
+    font-weight: 600;
+    color: black;
+    opacity: 50%;
+  }
+  
+  .lineFourHeaderPages {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+  }
+  
+  .lighterFontPages {
+    font-weight: 200;
+    padding-left: 4px;
+    color: black;
+    opacity: 50%;
+  }
+  
+  p {
+    font-size: 12px;
+    margin: 0;
+  }
+  
+  .navLinksBlockPages {
+    flex-direction: column;
+    display: flex;
+    margin-left: -13rem;
+    margin-top: 0.3rem;
+    width: 200px;
+    text-align: right;
+  }
+  
+  #menuNavTextPages {
+    font-size: 12px;
+    margin-left: -3rem;
+    margin-top: 1.2rem;
+    opacity: 50%;
+    color: black;
+    position: absolute;
+  }
+  
+  .navLinksPages {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  .navLinksPages:hover {
+    color: black;
+    text-decoration: none;
+    text-decoration: underline;
+  }
+  
+  /* Hover - Practice Page Nav */
+  #hoverPages {
+    border-right: 7px solid white;
+    height: 55px;
+    width: 10px;
+    right: 60px;
+    position: absolute;
+  }
+  
+  #hoverPages:hover {
+    border-right: 7px solid black;
+    height: 55px;
+    width: 10px;
+    right: 60px;
+    position: absolute;
+  }
+  
+  #hoverPages:hover #menuNavTextPages {
+    visibility: hidden;
+  }
+  
+  #hoverPages:hover,
+  #navLinksHoverPages:hover {
+    opacity: 1;
+    color: black;
+  }
+  
+  #navLinksHoverPages {
+    -moz-transition-duration: 0.7s;
+    -o-transition-duration: 0.7s;
+    -webkit-transition-duration: 0.7s;
+    color: white;
+    opacity: 0;
+    transition-duration: 0.7s;
+  }
+  
+  #menuNavTextPages:hover {
+    opacity: 0;
+  }
+  
+  @media (max-width: 700px) {
+    .embaLogo {
+      display: none;
+    }
+  
+    .headerText,
+    .bolderFont,
+    .lineFourHeader,
+    .lighterFont,
+    #hover,
+    #hover:hover
+    {
+      display: none;
+    }
+  
+    .banner-area {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    .headerLogoAndText {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        padding: 40px;
+      }
+  }

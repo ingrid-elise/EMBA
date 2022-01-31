@@ -120,12 +120,18 @@ p {
   .headerTextPages,
   .bolderFontPages,
   .lineFourHeaderPages,
-  .lighterFontPages {
+  .lighterFontPages,
+  #hoverPages,
+  #hoverPages:hover
+  {
     display: none;
   }
 
-  #hoverPages,
+  /* #hoverPages,
   #hoverPages:hover {
-    top: 50px; /* same distance from top as home page header/logo/text */
+    top: 50px; 
+  } */
+
+  .mobileMenu {
   }
 }

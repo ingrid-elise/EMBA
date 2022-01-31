@@ -15,7 +15,6 @@ function WorkTogether() {
           </div>
           <div className="formAndTitleCol">
             <h1 className="titleWorkTogether">WORK TOGETHER</h1>
-
             <div className="workTogetherDropdowns">
               <div className="services">
                 <div className="shortline"></div>

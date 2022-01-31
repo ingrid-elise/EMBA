@@ -1,3 +1,8 @@
+@font-face {
+  font-family: HelveticaNeueLTStd;
+  src: url("../src/Helvetica\ Neue\ LT\ Std/HelveticaNeueLTStd-Th.otf");
+}
+
 body {
   background-color: #d2a57b;
 }

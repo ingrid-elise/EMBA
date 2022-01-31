@@ -1,3 +1,8 @@
+@font-face {
+  font-family: HelveticaNeueLTStd;
+  src: url("../src/Helvetica\ Neue\ LT\ Std/HelveticaNeueLTStd-Th.otf");
+}
+
 .teamTitle {
   color: white;
   padding-left: 965px;
@@ -28,7 +33,7 @@
   flex-direction: column;
   color: white;
   width: 600px;
-  margin-left: 65px;
+  margin-left: 60px;
 }
 
 .titleAndNumber {
@@ -260,11 +265,13 @@
   .titlePractice {
     margin-top: 100px;
     padding-bottom: 5px;
+    font-size: 45px;
+    margin-left: 50px;
   }
 
   .practiceDropdowns {
     width: 300px;
-    margin-left: 60px;
+    margin-left: 50px;
   }
 
   .paragraphText {

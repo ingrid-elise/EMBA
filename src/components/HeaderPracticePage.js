@@ -1,8 +1,25 @@
-import React from "react";
-import "./HeaderPages.css";
+import React, {useState} from "react";
+import "./HeaderPracticePage.css";
 import { Link } from "react-router-dom";
+import MenuButton from "./MenuButton";
+import Menu from "./Menu";
+
 
 function HeaderPracticePage() {
+  const [checked, setChecked] = useState(false);
+
+  const handleMouseDown = (e) => {
+    toggleMenu();
+
+    console.log("clicked");
+    e.stopPropagation();
+  }
+
+  const toggleMenu = () => {
+    setChecked(!checked);
+    console.log("checked")
+  };
+
   return (
     <div className="headerLogoAndTextPages">
       <img className="embaLogoPages" src="images/EMBALogo.png" alt="EMBALogo" />
@@ -29,6 +46,17 @@ function HeaderPracticePage() {
           </Link>
         </div>
       </div>
+      
+{/* mobile header */}
+      <div className="banner-area">
+      <MenuButton 
+      handleMouseDown={handleMouseDown}
+      />
+      <Menu 
+      handleMouseDown={handleMouseDown}
+      menuVisibility={checked}
+      />
+    </div>
     </div>
   );
 }

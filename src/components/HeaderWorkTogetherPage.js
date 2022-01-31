@@ -1,8 +1,26 @@
-import React from "react";
-import "./Header.css";
+import React, {useState} from "react";
+import "./HeaderWorkTogetherPage.css";
 import { Link } from "react-router-dom";
+import MenuButton from "./MenuButton";
+// import Menu from "./Menu";
+import MenuWorkTogether from "./MenuWorkTogether";
+
 
 function HeaderWorkTogetherPage() {
+  const [checked, setChecked] = useState(false);
+
+  const handleMouseDown = (e) => {
+    toggleMenu();
+
+    console.log("clicked");
+    e.stopPropagation();
+  }
+
+  const toggleMenu = () => {
+    setChecked(!checked);
+    console.log("checked")
+  };
+
   return (
     <div className="headerLogoAndText">
       <img className="embaLogo" src="images/EMBALogo.png" alt="EMBALogo" />
@@ -29,6 +47,18 @@ function HeaderWorkTogetherPage() {
           </Link>
         </div>
       </div>
+
+
+      {/* mobile header */}
+      <div className="banner-area">
+      <MenuButton 
+      handleMouseDown={handleMouseDown}
+      />
+      <MenuWorkTogether 
+      handleMouseDown={handleMouseDown}
+      menuVisibility={checked}
+      />
+    </div>
     </div>
   );
 }

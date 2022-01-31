@@ -1,0 +1,68 @@
+@font-face {
+    font-family: HelveticaNeueLTStd;
+    src: url("../Helvetica\ Neue\ LT\ Std/HelveticaNeueLTStd-Th.otf");
+  }
+
+#flyoutMenu {
+    /* width: 100vw; */
+    width: 105vw;
+    height: 110vh;
+    background-color: lightgrey;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition-duration: .3s;
+    transition: cubic-bezier(0, .52, 0, 1);
+    overflow: scroll;
+    z-index: 1000;
+    font-family: HelveticaNeueLTStd;
+  }
+
+  /* showing and hiding of menu  */
+  #flyoutMenu.hide {
+    /* transform: translate3d(-100vw, 0, 0); */
+    transform: translate3d(-105vw, 0, 0);
+  }
+   
+  #flyoutMenu.show {
+    transform: translate3d(0vw, 0, 0);
+    overflow: hidden;
+  }
+
+  .menuTextBlock {
+      text-align: center;
+      color: white;
+    text-decoration: none;
+    margin-top: 100px;
+  }
+
+  .menuText {
+    color: white;
+    text-decoration: none;
+  }
+
+  .menuText:hover {
+    color: rgb(122, 121, 121);
+  }
+
+  .closeMenuBtn {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .menuCloseBtn {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 0px;
+    margin-top: 40px;
+  }
+
+  .menuCloseCross {
+    height: 15px;
+    margin-top: 42px;
+    margin-right: 42px;
+    margin-bottom: 42px;
+    margin-left: 20px;
+  }
