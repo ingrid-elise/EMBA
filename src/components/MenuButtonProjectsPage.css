@@ -1,0 +1,23 @@
+#menuBtnProjectsPage {
+    background-color: white;
+    padding: 0;
+    margin-left: auto;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: row;
+    border: none;
+  }
+   
+  #menuBtn:hover {
+    cursor: pointer;
+  }
+
+  .blackMenuBtn {
+    width: auto;
+    height: 25px;
+  }
+
+  .menuBtnDiv {
+    display: flex;
+    flex-direction: row;
+  }

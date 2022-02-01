@@ -1,8 +1,23 @@
-import React from "react";
-import "./HeaderProjectsPageCSS.css";
+import React, {useState} from "react";
+import "./HeaderProjectsPage.css";
 import { Link } from "react-router-dom";
+import MenuButtonProjectsPage from "./MenuButtonProjectsPage";
+import MenuProjects from "./MenuProjects";
 
 function HeaderProjectsPage() {
+  const [checked, setChecked] = useState(false);
+
+  const handleMouseDown = (e) => {
+    toggleMenu();
+
+    console.log("clicked");
+    e.stopPropagation();
+  }
+
+  const toggleMenu = () => {
+    setChecked(!checked);
+    console.log("checked")
+  };
   return (
     <div className="headerLogoAndTextProjectsPage">
       <img
@@ -33,6 +48,17 @@ function HeaderProjectsPage() {
           </Link>
         </div>
       </div>
+
+      {/* mobile header */}
+      <div className="banner-area">
+      <MenuButtonProjectsPage 
+      handleMouseDown={handleMouseDown}
+      />
+      <MenuProjects
+      handleMouseDown={handleMouseDown}
+      menuVisibility={checked}
+      />
+    </div>
     </div>
   );
 }

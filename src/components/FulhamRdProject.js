@@ -62,7 +62,7 @@ function FulhamRdProject() {
             `}
           >
             <div className="projectAddressBlock">
-              <p className="projectAddress">Woodman's Treehouse, Dorset</p>
+              <p className="projectAddress">Fulham Rd, London</p>
             </div>
           </div>
         </div>

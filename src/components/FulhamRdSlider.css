@@ -32,3 +32,22 @@
   font-size: 100px;
   /* border: pink 1px solid; */
 }
+
+@media (max-width: 700px) {
+  .App-FulhamRd {
+    width: 100vw;
+  }
+  .slides-FulhamRd {
+    height: 280px;
+    width: 100%;
+    z-index: 2;
+  }
+  .slides-FulhamRd > div {
+    height: 280px;
+    width: auto;
+  }
+  .slideImgs-FulhamRd {
+    height: 280px;
+    width: auto;
+  }
+}

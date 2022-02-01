@@ -2,7 +2,6 @@ import React, {useState} from "react";
 import "./HeaderWorkTogetherPage.css";
 import { Link } from "react-router-dom";
 import MenuButton from "./MenuButton";
-// import Menu from "./Menu";
 import MenuWorkTogether from "./MenuWorkTogether";
 
 

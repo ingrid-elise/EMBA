@@ -10,6 +10,8 @@ function ProjectsPage() {
     <div className="projectsPageBackground">
       <HeaderProjectsPage />
       <div className="projectsPage">
+        <h1 className="titleProjects">PROJECTS</h1>
+
         <div className="section" />
         <div id="trigger" />
         <Controller>
@@ -38,6 +40,10 @@ function ProjectsPage() {
           </Scene>
         </Controller>
         <div className="sectionFRP" />
+
+        <div className="footerProjectsPage">
+          Add footer?
+        </div>
       </div>
     </div>
   );

@@ -68,7 +68,7 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
     width: 100%;
   }
 
@@ -76,28 +76,34 @@
     border-bottom: 1px solid black;
     display: flex;
     flex-direction: column;
-    height: 43vh;
+    height: 40vh;
     line-height: 0px;
     margin-left: 10px;
+    margin-right: 10px;
     position: absolute;
-    width: 90vw;
+    width: 95vw;
     /* background-color: blue; */
     z-index: 1;
   }
 
-  .projectDescription-treehouse {
+  .projectAddress {
+    font-size: 1rem;
+  }
+  
+  .projectDescription-FulhamRd {
     /* border: 1px solid orange; */
     border-top: 1px solid black;
     display: flex;
     flex-direction: row;
-    height: 20vh;
+    height: auto;
     justify-content: flex-start;
     line-height: normal;
     margin-left: 10px;
+    padding-top: 10px;
     position: absolute;
-    top: 39rem;
-    width: 90vw;
-    margin-top: -25vh;
+    margin-top: 90px;
+    top: 870px;
+    width: 95vw;
   }
 
   .treehouseSlider {
