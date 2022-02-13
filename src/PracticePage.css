@@ -3,15 +3,6 @@
   src: url("../src/Helvetica\ Neue\ LT\ Std/HelveticaNeueLTStd-Th.otf");
 }
 
-.teamTitle {
-  color: white;
-  padding-left: 965px;
-  margin-top: 100px;
-  margin-bottom: 0;
-  font-size: 16px;
-  font-weight: 600;
-}
-
 .titlePractice {
   line-height: initial;
   font-weight: 200;
@@ -97,6 +88,21 @@
   margin-bottom: 10px;
 }
 
+.teamTitle {
+  color: white;
+  padding-left: 60vw;
+  margin-top: 100px;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.imageBlock {
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+}
+
 .dylanHeadShot {
   height: 400px;
   padding-left: 100px;
@@ -108,7 +114,8 @@
   display: flex;
   flex-direction: column;
   color: white;
-  padding-left: 300px;
+  padding-left: 100px;
+  padding-top: 10px;
 }
 
 .captionFirstLine {
@@ -209,6 +216,8 @@
 }
 
 #philosophyTextHover {
+  margin-left: 150px;
+  margin-right: 20px;
   opacity: 0;
   height: 0px;
   color: #d2a57b;
@@ -238,6 +247,8 @@
 }
 
 #purposeTextHover {
+  margin-left: 150px;
+  margin-right: 20px;
   opacity: 0;
   height: 0px;
   color: #d2a57b;

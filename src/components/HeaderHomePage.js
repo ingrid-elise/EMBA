@@ -3,15 +3,15 @@ import "./Header.css";
 
 function HeaderHomePage() {
   return (
-    <div className="headerLogoAndText">
-      <img className="embaLogo" src="images/EMBALogo.png" alt="EMBALogo" />
-      <div className="headerText">
-        <p className="bolderFont">Ecological</p>
-        <p className="bolderFont">Material</p>
-        <p className="bolderFont">Based</p>
-        <div className="lineFourHeader">
-          <p className="bolderFont">Architecture </p>
-          <p className="lighterFont">& Development</p>
+    <div className="headerLogoAndTextHomePage">
+      <img className="embaLogoHomePage" src="images/EMBALogo.png" alt="EMBALogo" />
+      <div className="headerTextHomePage">
+        <p className="bolderFontHomePage">Ecological</p>
+        <p className="bolderFontHomePage">Material</p>
+        <p className="bolderFontHomePage">Based</p>
+        <div className="lineFourHeaderHomePage">
+          <p className="bolderFontHomePage">Architecture </p>
+          <p className="lighterFontHomePage">& Development</p>
         </div>
       </div>
     </div>
