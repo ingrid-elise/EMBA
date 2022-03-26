@@ -289,8 +289,6 @@
     margin-top: 5px;
     margin-left: -100px;
     width: 250px; /* was 300px */
-    /* margin-left: 0px;
-    margin-right: 20px; */
   }
 
   .dropdownText {
@@ -299,30 +297,18 @@
     transition: 0.3s ease-in-out; /* removed 'all' */
   }
 
-  /* #aboutSectionHover:hover + #aboutTextHover {
-    height: 230px;
-  } */
-
-  /* #awarenessSectionHover:hover + #awarenessTextHover {
-    height: 310px;
-  }
-
-  #philosophySectionHover:hover + #philosophyTextHover {
-    height: 150px;
-  }
-
-  #purposeSectionHover:hover + #purposeTextHover {
-    height: 150px;
-  } */
-
   .dylanHeadShot {
     height: 400px;
-    padding-left: 20px;
+    width: auto;
+    padding-left: 0px;
     border-right: 60px solid lightgrey;
   }
 
   .imageBlock {
     margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
   }
 
   .caption {

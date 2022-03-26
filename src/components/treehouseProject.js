@@ -37,20 +37,20 @@ function TreehouseProject() {
                   <p className="descHeading">Project Team:</p>
                   <p className="descHeading">Photographer:</p>
                   <br />
-                  <p className="descHeading">Contractor:</p>
+                  <p className="descHeading" id="descHeadingContractor">Contractor:</p>
                   <p className="descHeading">Contract Value:</p>
                 </div>
                 <div className="projectDescInfo">
                   <p className="descInfo">Crafty Camping</p>
-                  <p className="descInfo">Onform Architecture + BEaM</p>
+                  <p className="descInfo">Brownlie Ernst & Marks</p>
                   <p className="descInfo">Completed July 2016</p>
                   <p className="descInfo">
                     Ecos Maclean as Structural Engineer
                   </p>
                   <p className="descInfo">Sandy Steele Perkins Photography</p>
                   <br />
-                  <p className="descInfo">Guy Mallinson and master craftsmen</p>
-                  <p className="descInfo">GBP 150,000</p>
+                  <p className="descInfo">Guy Mallinson in collaboration with local builders and master craftsmen</p>
+                  <p className="descInfo">£150,000</p>
                 </div>
               </div>
             </div>

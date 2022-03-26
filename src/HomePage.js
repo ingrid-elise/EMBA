@@ -10,9 +10,9 @@ function HomePage() {
 
       <div className="homePageLinksAndNumbers">
         <div className="linkNumbers">
-          <p className="number">01.</p>
-          <p className="number">02.</p>
-          <p className="number">03.</p>
+          <p className="number" id="numberOne">01.</p>
+          <p className="number" id="numberTwo">02.</p>
+          <p className="number" id="numberThree">03.</p>
         </div>
         <div className="homePageLinks">
           <Link to="/PracticePage" className="singleLinkPractice">

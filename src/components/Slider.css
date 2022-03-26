@@ -60,6 +60,18 @@
   width: 30vw;
 }
 
+#descHeadingContractor {
+  height: 30px;
+}
+
+.projectDescHeading {
+  color: #969696;
+}
+
+.projectDescInfo {
+  width: 20vw;
+}
+
 .verticalLineAndDesc {
   display: flex;
   flex-direction: column;
@@ -69,11 +81,6 @@
   height: fit-content;
   padding-top: 3vh;
   /* width: 100vw; */
-}
-
-.projectDescHeading {
-  color: #969696;
-  padding-right: 3vw;
 }
 
 .hidden {

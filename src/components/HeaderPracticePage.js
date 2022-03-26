@@ -21,7 +21,7 @@ function HeaderPracticePage() {
   };
 
   return (
-    <div className="headerLogoAndTextPages">
+    <div className="headerLogoAndTextPracticePage">
       <img className="embaLogoPages" src="images/EMBALogo.png" alt="EMBALogo" />
       <div className="headerTextPages">
         <p className="bolderFontPages">Ecological</p>

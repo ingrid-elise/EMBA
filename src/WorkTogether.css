@@ -71,10 +71,6 @@ body {
   margin-bottom: 10px;
 }
 
-.servicesParagraph {
-  padding-top: 10px;
-}
-
 .dropdownTextWorkTogether {
   margin-left: 150px;
   margin-right: 20px;
@@ -82,9 +78,8 @@ body {
 }
 
 .paragraphTextWorkTogether {
-  margin-top: 5px;
-  margin-bottom: 15px;
   font-weight: 200;
+  padding-bottom: 10px;
 }
 
 .sectors {
@@ -126,7 +121,7 @@ body {
 
 #servicesHover:hover + #servicesHoverText {
   opacity: 1;
-  height: 200px;
+  height: auto;
   color: black;
 }
 

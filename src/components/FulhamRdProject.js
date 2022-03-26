@@ -34,23 +34,17 @@ function FulhamRdProject() {
                   <p className="descHeading">Client:</p>
                   <p className="descHeading">Architect:</p>
                   <p className="descHeading">Status:</p>
-                  <p className="descHeading">Project Team:</p>
-                  <p className="descHeading">Photographer:</p>
-                  <br />
+                  <p className="descHeading" id="descHeadingProjectTeam">Project Team:</p>
                   <p className="descHeading">Contractor:</p>
                   <p className="descHeading">Contract Value:</p>
                 </div>
                 <div className="projectDescInfo">
-                  <p className="descInfo">Crafty Camping</p>
-                  <p className="descInfo">Onform Architecture + BEaM</p>
-                  <p className="descInfo">Completed July 2016</p>
-                  <p className="descInfo">
-                    Ecos Maclean as Structural Engineer
-                  </p>
-                  <p className="descInfo">Sandy Steele Perkins Photography</p>
-                  <br />
-                  <p className="descInfo">Guy Mallinson and master craftsmen</p>
-                  <p className="descInfo">GBP 150,000</p>
+                  <p className="descInfo">Artemis One</p>
+                  <p className="descInfo">Horden Cherry Lee Architects</p>
+                  <p className="descInfo">Completed April 2018</p>
+                  <p className="descInfo">Barrett Mahoney as Structural Engineer, EDP Environmental as M+E Engineer, Quoin as CDM Consultant</p><br />
+                  <p className="descInfo">FCM Holdings</p>
+                  <p className="descInfo">£1m</p>
                 </div>
               </div>
             </div>

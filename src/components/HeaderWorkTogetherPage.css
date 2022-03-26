@@ -1,16 +1,16 @@
-.headerLogoAndTextPages {
+.headerLogoAndTextWTPage {
     align-items: center;
     display: flex;
     flex-direction: row;
     padding: 40px;
   }
   
-  .embaLogoPages {
+  .embaLogoWTPage {
     padding: 20px;
     width: 150px;
   }
   
-  .headerTextPages {
+  .headerTextWTPage {
     color: white;
     display: flex;
     flex-direction: column;
@@ -18,19 +18,19 @@
     padding-left: 10px;
   }
   
-  .bolderFontPages {
+  .bolderFontWTPage {
     font-weight: 600;
     color: black;
     opacity: 50%;
   }
   
-  .lineFourHeaderPages {
+  .lineFourHeaderWTPage {
     display: flex;
     flex-direction: row;
     width: 200px;
   }
   
-  .lighterFontPages {
+  .lighterFontWTPage {
     font-weight: 200;
     padding-left: 4px;
     color: black;
@@ -42,7 +42,7 @@
     margin: 0;
   }
   
-  .navLinksBlockPages {
+  .navLinksBlockWTPage {
     flex-direction: column;
     display: flex;
     margin-left: -13rem;
@@ -51,7 +51,7 @@
     text-align: right;
   }
   
-  #menuNavTextPages {
+  #menuNavTextWTPage {
     font-size: 12px;
     margin-left: -3rem;
     margin-top: 1.2rem;
@@ -60,20 +60,20 @@
     position: absolute;
   }
   
-  .navLinksPages {
+  .navLinksWTPage {
     color: white;
     text-decoration: none;
     font-size: 12px;
   }
   
-  .navLinksPages:hover {
+  .navLinksWTPage:hover {
     color: black;
     text-decoration: none;
     text-decoration: underline;
   }
   
-  /* Hover - Practice Page Nav */
-  #hoverPages {
+  /* Hover - Work Together Page Nav */
+  #hoverWTPage {
     border-right: 7px solid white;
     height: 55px;
     width: 10px;
@@ -81,7 +81,7 @@
     position: absolute;
   }
   
-  #hoverPages:hover {
+  #hoverWTPage:hover {
     border-right: 7px solid black;
     height: 55px;
     width: 10px;
@@ -89,17 +89,17 @@
     position: absolute;
   }
   
-  #hoverPages:hover #menuNavTextPages {
+  #hoverWTPage:hover #menuNavTextWTPage {
     visibility: hidden;
   }
   
-  #hoverPages:hover,
-  #navLinksHoverPages:hover {
+  #hoverWTPage:hover,
+  #navLinksHoverWTPage:hover {
     opacity: 1;
     color: black;
   }
   
-  #navLinksHoverPages {
+  #navLinksHoverWTPage {
     -moz-transition-duration: 0.7s;
     -o-transition-duration: 0.7s;
     -webkit-transition-duration: 0.7s;
@@ -108,9 +108,11 @@
     transition-duration: 0.7s;
   }
   
-  #menuNavTextPages:hover {
+  #menuNavTextWTPage:hover {
     opacity: 0;
   }
+
+
   
   @media (max-width: 700px) {
     .embaLogo {

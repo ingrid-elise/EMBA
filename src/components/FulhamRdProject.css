@@ -21,8 +21,27 @@
   margin-left: 60px;
   padding-top: 0.7rem;
   position: absolute;
-  top: 85.55rem; /* distance from top of page, need to adjust this when info is correct */
+  top: 100rem; /* distance from top of page, need to adjust this when info is correct */
   width: 30vw;
+}
+
+.projectDescInfo {
+  width: 20vw;
+  float: right;
+  /* border: 1px solid purple; */
+}
+
+.descHeading {
+  /* border: 1px solid blue; */
+  line-height: normal;
+}
+
+#descHeadingProjectTeam {
+  height: 63px;
+}
+
+.descInfo {
+  line-height: normal;
 }
 
 .verticalLineAndDesc {
@@ -32,7 +51,7 @@
 
 .treehouseSlider {
   height: fit-content;
-  padding-top: 3vh;
+  padding-top: 7vh;
 }
 
 .projectDescHeading {

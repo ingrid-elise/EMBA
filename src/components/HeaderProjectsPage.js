@@ -37,13 +37,13 @@ function HeaderProjectsPage() {
       <div id="hoverProjectsPage">
         <span id="menuNavText">MENU</span>
         <div className="navLinksBlock" id="navLinksHover">
-          <Link to="/" className="navLinks">
+          <Link to="/" className="navLinks" id="navLinksHome">
             HOME
           </Link>
-          <Link to="/PracticePage" className="navLinks">
+          <Link to="/PracticePage" className="navLinks" id="navLinksPractice">
             PRACTICE
           </Link>
-          <Link to="/WorkTogether" className="navLinks">
+          <Link to="/WorkTogether" className="navLinks" id="navLinksWorkTogether">
             WORK TOGETHER
           </Link>
         </div>

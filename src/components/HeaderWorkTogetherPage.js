@@ -21,27 +21,27 @@ function HeaderWorkTogetherPage() {
   };
 
   return (
-    <div className="headerLogoAndText">
-      <img className="embaLogo" src="images/EMBALogo.png" alt="EMBALogo" />
-      <div className="headerText">
-        <p className="bolderFont">Ecological</p>
-        <p className="bolderFont">Material</p>
-        <p className="bolderFont">Based</p>
-        <div className="lineFourHeader">
-          <p className="bolderFont">Architecture </p>
-          <p className="lighterFont">& Development</p>
+    <div className="headerLogoAndTextWTPage">
+      <img className="embaLogoWTPage" src="images/EMBALogo.png" alt="EMBALogo" />
+      <div className="headerTextWTPage">
+        <p className="bolderFontWTPage">Ecological</p>
+        <p className="bolderFontWTPage">Material</p>
+        <p className="bolderFontWTPage">Based</p>
+        <div className="lineFourHeaderWTPage">
+          <p className="bolderFontWTPage">Architecture </p>
+          <p className="lighterFontWTPage">& Development</p>
         </div>
       </div>
-      <div id="hover">
-        <span id="menuNavText">MENU</span>
-        <div className="navLinksBlock" id="navLinksHover">
-          <Link to="/" className="navLinks">
+      <div id="hoverWTPage">
+        <span id="menuNavTextWTPage">MENU</span>
+        <div className="navLinksBlockWTPage" id="navLinksHoverWTPage">
+          <Link to="/" className="navLinksWTPage">
             HOME
           </Link>
-          <Link to="/PracticePage" className="navLinks">
+          <Link to="/PracticePage" className="navLinksWTPage">
             PRACTICE
           </Link>
-          <Link to="/ProjectsPage" className="navLinks">
+          <Link to="/ProjectsPage" className="navLinksWTPage">
             PROJECTS
           </Link>
         </div>

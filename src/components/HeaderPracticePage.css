@@ -1,3 +1,11 @@
+.headerLogoAndTextPracticePage {
+  align-items: center;
+  background-color: #bd9581;
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+}
+
 .headerLogoAndTextPages {
     align-items: center;
     display: flex;
