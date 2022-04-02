@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import "./Form.css";
+import Modal from "./Modal";
+
+function sentForm() {
+  console.log("form sent");
+}
 
 function Form() {
+  const [showModal, setShowModal] = useState(false);
+  const openModal = () => {
+    setShowModal(true);
+  };
+
   function sendEmail(e) {
     e.preventDefault();
 
@@ -15,7 +25,8 @@ function Form() {
       )
       .then(
         (result) => {
-          alert("success");
+          // alert("success");
+          sentForm();
           // console.log(result.text);
         },
         (error) => {
@@ -42,9 +53,16 @@ function Form() {
         <textarea name="message" placeholder="Message" required />
         <div className="shortLineBelow"></div>
         <div className="buttonDiv">
-          <input type="submit" value="Send" className="contactUsButton" />
+          <input
+            type="submit"
+            value="Send"
+            className="contactUsButton"
+            onClick={openModal}
+          ></input>
+          {showModal ? <Modal setShowModal={setShowModal} /> : null}
         </div>
       </form>
+
     </div>
   );
 }
