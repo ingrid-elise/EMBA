@@ -7,7 +7,6 @@ function PracticePage() {
     <div>
       <HeaderPracticePage />
       <div className="mobileDivColumn">
-        <h3 className="teamTitle">Team</h3>
         <h1 className="titlePractice">PRACTICE</h1>
         <div className="practiceTextAndImg">
           <div className="practiceDropdowns">
@@ -111,6 +110,7 @@ function PracticePage() {
           </div>
 
           <div className="imageBlock">
+          {/* <p className="teamTitle">Team</p> */}
             <img
               className="dylanHeadShot"
               src="./images/Dylan.png"

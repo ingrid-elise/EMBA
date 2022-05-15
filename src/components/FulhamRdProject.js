@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./FulhamRdProject.css";
 import FulhamRdSlider from "./FulhamRdSlider";
+import ProjectDescription from "./ProjectDescription";
 
 function FulhamRdProject() {
   const [isHoveringFulhamRd, setIsHoveringFulhamRd] = useState(false);
@@ -30,22 +31,30 @@ function FulhamRdProject() {
             <div className="verticalLineAndDesc">
               <div id="verticalLineOnHover"></div>
               <div className="projectDescription-FulhamRd">
-                <div className="projectDescHeading">
-                  <p className="descHeading">Client:</p>
-                  <p className="descHeading">Architect:</p>
-                  <p className="descHeading">Status:</p>
-                  <p className="descHeading" id="descHeadingProjectTeam">Project Team:</p>
-                  <p className="descHeading">Contractor:</p>
-                  <p className="descHeading">Contract Value:</p>
-                </div>
-                <div className="projectDescInfo">
-                  <p className="descInfo">Artemis One</p>
-                  <p className="descInfo">Horden Cherry Lee Architects</p>
-                  <p className="descInfo">Completed April 2018</p>
-                  <p className="descInfo">Barrett Mahoney as Structural Engineer, EDP Environmental as M+E Engineer, Quoin as CDM Consultant</p><br />
-                  <p className="descInfo">FCM Holdings</p>
-                  <p className="descInfo">£1m</p>
-                </div>
+                <ProjectDescription
+                  clientName="Artemis One"
+                  architect="Horden Cherry Lee Architects"
+                  projectStatus="Completed April 2018"
+                  projectTeam="Barrett Mahoney, EDP Environmental, Quoin"
+                  photographer="Dennis Gilbert"
+                  contractor="FCM Holdings"
+                  contractValue="£1m"
+                />
+              </div>
+              <div className="projectDescriptionLong-fulhamRd">
+                <p>
+                  A contemporary new build residential development comprising
+                  two four-bedroom mews houses with basements in Fulham, London.
+                  The constrained 218m2 former site of 6 derelict garages
+                  dictated maximising the building envelope and required
+                  overcoming technical and legal challenges. The building is
+                  constructed in London stock brick and features a minimalist
+                  aluminium framed glazed façade, fenestrated by a series of
+                  shimmering solar panel privacy shutters. These have the dual
+                  function of satisfying overlooking requirements and suppling
+                  renewable energy for fifty percent of the houses total energy
+                  consumption.
+                </p>
               </div>
             </div>
           </div>

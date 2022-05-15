@@ -115,16 +115,16 @@
 
   
   @media (max-width: 700px) {
-    .embaLogo {
+    .embaLogoWTPage {
       display: none;
     }
   
-    .headerText,
-    .bolderFont,
-    .lineFourHeader,
-    .lighterFont,
-    #hover,
-    #hover:hover
+    .headerTextWTPage,
+    .bolderFontWTPage,
+    .lineFourHeaderWTPage,
+    .lighterFontWTPage,
+    #hoverWTPage,
+    #hoverWTPage:hover
     {
       display: none;
     }
@@ -136,7 +136,7 @@
         margin-right: 0;
     }
 
-    .headerLogoAndText {
+    .headerLogoAndTextWTPage {
         align-items: center;
         display: flex;
         flex-direction: row;

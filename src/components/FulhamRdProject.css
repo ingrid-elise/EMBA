@@ -15,13 +15,19 @@
   border-top: 1px solid black;
   display: flex;
   flex-direction: row;
-  height: 200px;
   justify-content: flex-start;
   line-height: normal;
   margin-left: 60px;
-  padding-top: 0.7rem;
+  padding-top: 10px;
   position: absolute;
-  top: 100rem; /* distance from top of page, need to adjust this when info is correct */
+  top: 96rem; /* distance from top of page, need to adjust this when info is correct */
+  width: 30vw;
+}
+
+.projectDescriptionLong-fulhamRd {
+  padding-top: 34rem;
+  line-height: normal;
+  margin-left: 60px;
   width: 30vw;
 }
 
@@ -67,7 +73,7 @@
   border-bottom: 1px solid black;
   display: flex;
   flex-direction: column;
-  height: 72.4vh;
+  height: 661px;
   justify-content: flex-end;
   line-height: 0px;
   margin-left: 60px;

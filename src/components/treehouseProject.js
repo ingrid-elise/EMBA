@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Slider.css";
 import Slider from "./Slider";
+import ProjectDescription from "./ProjectDescription";
 
 function TreehouseProject() {
   const [isHovering, setIsHovering] = useState(false);
@@ -30,28 +31,41 @@ function TreehouseProject() {
             <div className="verticalLineAndDesc">
               <div id="verticalLineOnHover"></div>
               <div className="projectDescription-treehouse">
-                <div className="projectDescHeading">
-                  <p className="descHeading">Client:</p>
-                  <p className="descHeading">Architect:</p>
-                  <p className="descHeading">Status:</p>
-                  <p className="descHeading">Project Team:</p>
-                  <p className="descHeading">Photographer:</p>
-                  <br />
-                  <p className="descHeading" id="descHeadingContractor">Contractor:</p>
-                  <p className="descHeading">Contract Value:</p>
+                <div className="projectDescriptionBreif">
+                  <ProjectDescription 
+                  clientName="Crafty Camper" 
+                  architect="Brownlie Ernst & Marks" 
+                  projectStatus="Completed July 2016" 
+                  projectTeam="Ecos Maclean as Structural Engineer" 
+                  photographer="Sandy Steele Perkins Photography" 
+                  contractor="Guy Mallinson, local builders and master craftsmen" 
+                  contractValue="£150,000"
+                  />
                 </div>
-                <div className="projectDescInfo">
-                  <p className="descInfo">Crafty Camping</p>
-                  <p className="descInfo">Brownlie Ernst & Marks</p>
-                  <p className="descInfo">Completed July 2016</p>
-                  <p className="descInfo">
-                    Ecos Maclean as Structural Engineer
-                  </p>
-                  <p className="descInfo">Sandy Steele Perkins Photography</p>
-                  <br />
-                  <p className="descInfo">Guy Mallinson in collaboration with local builders and master craftsmen</p>
-                  <p className="descInfo">£150,000</p>
-                </div>
+              
+                <div className="projectDescriptionLong-treehouse">
+                <p>
+                  Bespoke, luxury treehouse accommodation in 200 year old
+                  conservation woodland located in the earthy, romantic and
+                  rural setting of the Dorset countryside, UK. Elevated 4.5m off
+                  the woodland floor the treehouse is sensitively designed to
+                  integrate with the site’s ecology through extensive use of
+                  timber construction for structure, cladding and internal
+                  finishes. A highly creative design process placed emphasis on
+                  using materials, texture and form to clearly reflect the
+                  function and hierarchy of internal spaces resulting in an
+                  imaginary, jostled and characterful appearance.
+                </p>
+                <p>
+                  The treehouse is planned around a central rotunda which
+                  accommodates the central living space, off which all other
+                  spaces connect. Found in these spaces are an abundance of
+                  bespoke features such as external terraces, copper bathtub,
+                  spiral staircase, jacuzzi, sauna, tree shower, pizza oven,
+                  rotating wood burning stove, slide and illuminated bedside
+                  views to the tree canopy.
+                </p>
+              </div>
               </div>
             </div>
           </div>

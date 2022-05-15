@@ -49,15 +49,26 @@
   /* border: 1px solid orange; */
   border-top: 1px solid black;
   display: flex;
-  flex-direction: row;
-  height: 200px;
+  flex-direction: column;
+  /* height: 600px; */
   justify-content: flex-start;
   line-height: normal;
   margin-left: 60px;
   padding-top: 0.7rem;
   position: absolute;
-  top: 40.55rem;
+  top: 35rem;
   width: 30vw;
+}
+
+.projectDescriptionBreif {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.projectDescriptionLong-treehouse {
+  padding-top: 1.4rem;
+  line-height: normal;
 }
 
 #descHeadingContractor {
@@ -139,7 +150,7 @@
     flex-direction: row;
     justify-content: flex-start;
     line-height: normal;
-    margin-left: 10px;
+    margin-left: 60px;
     position: absolute;
     top: 39rem;
     width: 95vw;

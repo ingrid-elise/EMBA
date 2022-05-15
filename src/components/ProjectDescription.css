@@ -1,0 +1,16 @@
+.projectDesciptionDetails {
+    display: flex;
+    flex-direction: row;
+}
+
+.projectDescHeading {
+    color: #969696;
+  }
+
+  /* #descHeadingContractor {
+    height: 30px;
+  } */
+
+  .projectDescInfo {
+    width: 20vw;
+  }
