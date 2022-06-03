@@ -27,11 +27,24 @@ body {
 }
 
 .footerProjectsPage {
-  height: 100px;
+  height: 50px;
   background-color: black;
   color: white;
-  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items: center;
 }
+
+.footerProjectsPage p {
+  padding-left: 30px;
+}
+
+.embaLogoFooter {
+  height: 20px;
+  padding-left: 60px;
+}
+
 
 @media (max-width: 700px) {
   .projectsPageBackground {
@@ -42,8 +55,7 @@ body {
 
   .titleProjects {
     display: block;
-    margin-left: 10px;
-
+    margin-left: 20px;
     line-height: 0%;
     margin-top: 100px;
     font-weight: 200;
@@ -56,6 +68,14 @@ body {
   
   .testFRP {
     background-color: white;
+  }
+
+  .footerProjectsPage p {
+    padding-left: 20px;
+  }
+
+  .embaLogoFooter {
+    padding-left: 20px;
   }
 }
 

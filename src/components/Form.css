@@ -72,6 +72,16 @@ textarea:focus {
   text-align: center;
 }
 
+@media (max-width: 1210px) {
+  .contactUsButton {
+    padding: 9px 74px 9px 44px;
+  }
+
+  .contactUsButton:hover {
+    padding: 10px 75px 10px 45px;
+  }
+}
+
 @media (max-width: 700px) {
   .formContainer {
     width: 65vw;

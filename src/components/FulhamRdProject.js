@@ -21,14 +21,14 @@ function FulhamRdProject() {
 
   return (
     <div>
-      <div className="descAndSlider">
+      <div className="descAndSlider-FulhamRd">
         <div className="descriptionAndImg">
           <div
             className={`
               ${isHoveringFulhamRd ? "" : "hidden"}
             `}
           >
-            <div className="verticalLineAndDesc">
+            <div className="verticalLineAndDesc-FulhamRd">
               <div id="verticalLineOnHover"></div>
               <div className="projectDescription-FulhamRd">
                 <ProjectDescription
@@ -64,7 +64,7 @@ function FulhamRdProject() {
               ${hideTitleFulhamRd ? "" : "hidden"}
             `}
           >
-            <div className="projectAddressBlock">
+            <div className="projectAddressBlock-FulhamRd">
               <p className="projectAddress">Fulham Rd, London</p>
             </div>
           </div>

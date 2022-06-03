@@ -42,7 +42,15 @@ function ProjectsPage() {
         <div className="sectionFRP" />
 
         <div className="footerProjectsPage">
-          Add footer?
+          <img
+        className="embaLogoFooter"
+        src="images/EMBALogo.png"
+        alt="EMBALogoBlack"
+      />
+          <p>HOME</p>
+          <p>PRACTICE</p>
+          <p>PROJECTS</p>
+          <p>WORK TOGETHER</p>
         </div>
       </div>
     </div>

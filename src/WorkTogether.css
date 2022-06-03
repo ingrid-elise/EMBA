@@ -32,12 +32,12 @@ body {
 .formAndTitleCol {
   display: flex;
   flex-direction: column;
-  padding-left: 20px;
+  margin-left: 50px;
 }
 
 .workTogetherDropdowns {
   margin-right: 60px;
-  width: 600px;
+  width: 40vw;
 }
 
 .workTogetherTextAndForm {
@@ -220,14 +220,41 @@ body {
   transition-property: color;
 }
 
+@media (max-width: 1210px) {
+  .titleWorkTogether {
+    font-size: 55px;
+    line-height: 90%;
+    margin-top: 3px;
+  }
 
+  .paragraphTextWorkTogether {
+    width: 30vw;
+    margin-left: -100px;
+    padding-top: 5px;
+  }
+
+  .dropdownTextWorkTogether {
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  #sectorsHover:hover + #sectorsHoverText {
+    height: 18vh;
+  }
+
+  #initialConHover:hover + #initialConHoverText {
+    height: 15vh;
+  }
+}
 
 @media (max-width: 700px) {
   .formAndTitleRow {
     display: flex;
     flex-direction: column-reverse;
     padding-top: 20px;
-    justify-content: space-between;
+    /* justify-content: center; */
     align-content: center;
   }
 
@@ -244,12 +271,13 @@ body {
 
   .workTogetherDropdowns {
     width: 300px;
-    margin-left: 50px;
+    margin-left: 0px;
   }
 
 
 .paragraphTextWorkTogether {
-  width: 250px;
+  width: 350px;
+  margin-left: 0px;
 }
 
   .formContainer {
@@ -266,7 +294,7 @@ body {
   .titleWorkTogether {
     line-height: inherit;
     padding-bottom: 5px;
-    padding-left: 25px;
+    padding-left: 0px;
     font-size: 45px;
     margin-top: 100px; /* same as practice page but does it look too low? */
   }

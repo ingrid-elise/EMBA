@@ -46,7 +46,6 @@
 }
 
 .projectDescription-treehouse {
-  /* border: 1px solid orange; */
   border-top: 1px solid black;
   display: flex;
   flex-direction: column;
@@ -102,7 +101,7 @@
   border-bottom: 1px solid black;
   display: flex;
   flex-direction: column;
-  height: 72.4vh;
+  height: 71vh;
   justify-content: flex-end;
   line-height: 0px;
   margin-left: 60px;
@@ -114,6 +113,84 @@
   font-size: 1.4rem;
   font-weight: 100;
   padding-bottom: 0.7rem; /* 0.2rem */
+}
+
+/* Tablet Size */
+@media (max-width: 1210px) {
+  .App {
+    width: 100vw;
+  }
+  
+  .descAndSlider {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10vh;
+    width: 100%;
+  }
+
+  .projectAddressBlock {
+    border-bottom: none;
+    display: flex;
+    flex-direction: column;
+    /* height: 40vh; */
+    line-height: 0px;
+    margin-left: 60px;
+    position: absolute;
+    /* background-color: blue; */
+    z-index: 1;
+    /* width: 50vw; */
+  }
+
+  .projectAddress {
+    font-size: 1.4rem;
+    font-weight: 100;
+    padding-bottom: 0.7rem;
+    width: 90vw;
+    border-bottom: 1px solid black;
+  }
+
+  .projectDescription-treehouse {
+    /* border: 1px solid orange; */
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    line-height: normal;
+    margin-left: 60px;
+    position: absolute;
+    top: 39rem;
+    width: 90vw;
+    margin-top: 25vh;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+.projectDescriptionLong-treehouse {
+  padding-top: 0rem;
+  line-height: normal;
+  padding-left: 10px;
+}
+
+  .treehouseSlider {
+    padding-top: 0vh;
+  }
+
+  .slides {
+    height: 60vh;
+    width: 100%;
+    z-index: 2;
+  }
+
+  .slideImgs {
+    height: 60vh;
+    width: auto;
+  }
+
+  .slides > div {
+    height: 60vh;
+    width: auto;
+  }
 }
 
 /* Mobile Phone Size */
@@ -136,28 +213,47 @@
     flex-direction: column;
     height: 40vh;
     line-height: 0px;
-    margin-left: 10px;
+    margin-left: 20px;
     position: absolute;
     width: 90vw;
     /* background-color: blue; */
     z-index: 1;
   }
 
+  .projectAddress {
+    font-size: 1.4rem;
+    font-weight: 100;
+    padding-bottom: 0.7rem;
+    width: 90vw;
+    /* border-bottom: 1px solid black; */
+  }
+
   .projectDescription-treehouse {
     /* border: 1px solid orange; */
     border-top: 1px solid black;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     line-height: normal;
-    margin-left: 60px;
+    margin-left: 10px;
     position: absolute;
     top: 39rem;
     width: 95vw;
-    margin-top: -17vh;
+    margin-top: -5vh;
     padding-top: 10px;
     padding-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
+
+  .projectDescInfo {
+    width: auto;
+  }
+
+  .projectDescriptionLong-treehouse {
+    padding-left: 0px;
+    padding-top: 10px;
+  }
+
 
   .treehouseSlider {
     padding-top: 0vh;
@@ -179,48 +275,3 @@
     width: auto;
   }
 }
-
-/* Tablet size  */
-@media (max-width: 1100px) {
-  /* .slides {
-    width: 100%;
-  }
-
-  .projectAddressBlock {
-    height: 75vh;
-    width: 90vw;
-  }
-
-  .treehouseSlider {
-    padding-top: 0vh;
-  }
-
-  .projectDescription-treehouse {
-    /* border: 1px solid orange; */
-  /* border-top: 1px solid black;
-    display: flex;
-    flex-direction: row;
-    height: 200px;
-    justify-content: flex-start;
-    line-height: normal;
-    margin-left: 60px;
-    padding-top: 0.7rem;
-    position: absolute; */
-  /* top: 40.55rem; */
-  /* top: 51rem;
-    width: 90vw; */
-  /* margin-right: 20px; */
-  /* }  */
-}
-
-/* @media (max-width: 1450px) {
-  .projectAddressBlock {
-    width: 410px;
-  }
-}
-
-@media (max-width: 1350px) {
-  .projectAddressBlock {
-    width: 380px;
-  }
-} */

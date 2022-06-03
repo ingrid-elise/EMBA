@@ -109,6 +109,7 @@
 
 .dylanHeadShot {
   height: 400px;
+  width: auto;
   padding-left: 100px;
   margin-top: -110px;
   border-right: 60px solid lightgrey;
@@ -263,7 +264,18 @@
   transition-property: color;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1143px){
+  .dylanHeadShot {
+    padding-left: 0px; 
+  }
+
+  .caption {
+    padding-left: 0px;
+  }
+}
+
+
+@media (max-width: 820px) {
   .mobileDivColumn {
     display: flex;
     flex-direction: column;
@@ -286,14 +298,16 @@
   }
 
   .practiceDropdowns {
-    width: 300px;
+    width: auto;
     margin-left: 50px;
+    margin-right: 50px;
   }
 
   .paragraphText {
     margin-top: 5px;
     margin-left: -100px;
-    width: 250px; /* was 300px */
+    width: auto;
+    margin-right: 100px;
   }
 
   .dropdownText {
@@ -303,8 +317,8 @@
   }
 
   .dylanHeadShot {
-    height: 400px;
-    width: auto;
+    height: auto;
+    width: 400px;
     padding-left: 0px;
     border-right: 60px solid lightgrey;
   }
@@ -313,11 +327,14 @@
     margin-top: 200px;
     display: flex;
     flex-direction: column;
-    padding-left: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
   }
 
   .caption {
-    padding-left: 20px;
+    padding-left: 0px;
     padding-bottom: 20px;
+    margin-left: -300px;
   }
 }

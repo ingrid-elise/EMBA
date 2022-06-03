@@ -33,6 +33,12 @@
   /* border: pink 1px solid; */
 }
 
+@media (max-width: 1210px) {
+  .App-FulhamRd{
+    width: auto;
+  }
+}
+
 @media (max-width: 700px) {
   .App-FulhamRd {
     width: 100vw;
