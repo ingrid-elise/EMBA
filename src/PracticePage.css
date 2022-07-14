@@ -65,7 +65,7 @@
   transition: 0.3s ease-in-out; /* all removed */
 }
 
-.paragraphText {
+.paragraphTextPracticePage {
   margin-top: 5px;
   margin-bottom: 10px;
   font-weight: 200;
@@ -303,11 +303,10 @@
     margin-right: 50px;
   }
 
-  .paragraphText {
+  .paragraphTextPracticePage {
     margin-top: 5px;
     margin-left: -100px;
     width: auto;
-    margin-right: 100px;
   }
 
   .dropdownText {

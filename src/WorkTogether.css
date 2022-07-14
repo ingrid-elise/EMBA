@@ -276,9 +276,15 @@ body {
 
 
 .paragraphTextWorkTogether {
-  width: 350px;
-  margin-left: 0px;
+  width: auto;
+  margin-left: -100px;
 }
+
+/* .paragraphTextPracticePage {
+  margin-top: 5px;
+  margin-left: -100px;
+  width: auto;
+} */
 
   .formContainer {
     padding: 20px;
@@ -301,29 +307,25 @@ body {
 
   #servicesHover:hover + #servicesHoverText {
     height: auto;
-    /* width: 70vw; */
   }
 
   #sectorsHover:hover + #sectorsHoverText {
     height: auto;
-    width: 70vw;
   }
 
   #initialConHover:hover + #initialConHoverText {
     height: auto;
-    width: 70vw;
   }
 
   #feesHover:hover + #feesHoverText {
     height: 400px;
-    width: 70vw;
     padding-bottom: 20px;
   }
 
   .dropdownTextWorkTogether {
-    margin-left: 60px;
-    margin-right: 30px;
-    /* transition: all 0.3s ease-in-out; */
+    margin-left: 150px;
+    margin-right: 20px;
+    transition: 0.3s ease-in-out;
   }
 }
 

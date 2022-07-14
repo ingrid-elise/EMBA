@@ -1,15 +1,15 @@
 import React from "react";
 import "./FulhamRdSlider.css";
-import FulhamRd1 from "../FulhamRdImages/FulhamRd_2400x1600px_01.jpg";
-import FulhamRd2 from "../FulhamRdImages/FulhamRd_2400x1600px_02.jpg";
-import FulhamRd3 from "../FulhamRdImages/FulhamRd_2400x1600px_03.jpg";
-import FulhamRd4 from "../FulhamRdImages/FulhamRd_2400x1600px_04.jpg";
-import FulhamRd5 from "../FulhamRdImages/FulhamRd_2400x1600px_05.jpg";
+import FulhamRd1 from "../components/FulhamRd/FulhamRdPhotos/FulhamRd1.jpg";
+import FulhamRd2 from "../components/FulhamRd/FulhamRdPhotos/FulhamRd2.jpg";
+import FulhamRd3 from "../components/FulhamRd/FulhamRdPhotos/FulhamRd3.jpg";
+import FulhamRd4 from "../components/FulhamRd/FulhamRdPhotos/FulhamRd4.jpg";
+import FulhamRd5 from "../components/FulhamRd/FulhamRdPhotos/FulhamRd5.jpg";
 
 function FulhamRdSlider() {
   return (
     <div className="App-FulhamRd">
-      <div class="slides-FulhamRd">
+      <div className="slides-FulhamRd">
         <div>
           <img
             src={FulhamRd1}

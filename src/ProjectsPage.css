@@ -20,6 +20,7 @@ body {
   line-height: 5px;
   margin: none;
   padding: none;
+  background-color: white;
 }
 
 .titleProjects {
@@ -55,7 +56,7 @@ body {
 
   .titleProjects {
     display: block;
-    margin-left: 20px;
+    margin-left: 40px;
     line-height: 0%;
     margin-top: 100px;
     font-weight: 200;
@@ -81,15 +82,13 @@ body {
 
 /* Scroll Magic CSS */
 
+/* Treehouse */
 .section {
   height: auto;
 }
 
 .test {
   transition: opacity 1s ease-in-out;
-  /* width: 500px;
-  height: 500px; */
-  /* background-color: red; */
   margin: 0 !important;
   opacity: 0;
 }
@@ -99,6 +98,7 @@ body {
   opacity: 1;
 }
 
+/* Fullham Rd */
 .sectionFRP {
   height: 15vh;
   background-color: white;
@@ -106,9 +106,6 @@ body {
 
 .testFRP {
   transition: opacity 0.5s ease-in-out;
-  /* width: 500px;
-  height: 500px; */
-  /* background-color: red; */
   margin: 0 !important;
   opacity: 0;
 }
@@ -116,4 +113,21 @@ body {
 .zapFRP {
   height: auto;
   opacity: 1;
+}
+
+/* Shell Cove Harbour */
+.sectionSH {
+  height: 15vh;
+}
+
+.testSH {
+  transition: opacity 0.5s ease-in-out;
+  margin: 0 !important;
+  opacity: 0;
+}
+
+.zapSH {
+  height: auto;
+  opacity: 1;
+  /* background-color: pink; */
 }

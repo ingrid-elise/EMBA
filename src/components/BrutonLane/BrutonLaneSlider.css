@@ -1,0 +1,59 @@
+.App-BrutonLane {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 64.5vw;
+  }
+  
+  .slides-BrutonLane {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    /* border: red 1px solid; */
+  }
+  
+  .slideImgs-BrutonLane {
+    height: 600px;
+    width: auto;
+    /* border: yellow 1px solid; */
+  }
+  
+  .slides-BrutonLane > div {
+    display: flex;
+    flex-shrink: 0;
+    height: 600px;
+    width: auto;
+    scroll-snap-align: start;
+    scroll-behavior: smooth;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    /* border: pink 1px solid; */
+  }
+  
+  @media (max-width: 1210px) {
+    .App-BrutonLane{
+      width: auto;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .App-BrutonLane {
+      width: 100vw;
+    }
+    .slides-BrutonLane {
+      height: 280px;
+      width: 100%;
+      z-index: 2;
+    }
+    .slides-BrutonLane > div {
+      height: 280px;
+      width: auto;
+    }
+    .slideImgs-BrutonLane {
+      height: 280px;
+      width: auto;
+    }
+  }

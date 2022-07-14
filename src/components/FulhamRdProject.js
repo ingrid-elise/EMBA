@@ -34,9 +34,9 @@ function FulhamRdProject() {
                 <ProjectDescription
                   clientName="Artemis One"
                   architect="Horden Cherry Lee Architects"
-                  projectStatus="Completed April 2018"
-                  projectTeam="Barrett Mahoney, EDP Environmental, Quoin"
-                  photographer="Dennis Gilbert"
+                  projectStatus="Completed 2018"
+                  structuralEngineer="Barrett Mahoney"
+                  servicesEngineer="EDP Environmental"
                   contractor="FCM Holdings"
                   contractValue="£1m"
                 />

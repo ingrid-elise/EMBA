@@ -33,15 +33,19 @@ function TreehouseProject() {
               <div className="projectDescription-treehouse">
                 <div className="projectDescriptionBreif">
                   <ProjectDescription 
-                  clientName="Crafty Camper" 
-                  architect="Brownlie Ernst & Marks" 
-                  projectStatus="Completed July 2016" 
-                  projectTeam="Ecos Maclean as Structural Engineer" 
-                  photographer="Sandy Steele Perkins Photography" 
-                  contractor="Guy Mallinson, local builders and master craftsmen" 
-                  contractValue="£150,000"
+                  clientName="Crafty Camping" 
+                  architect="EMBA"
+                  projectStatus="Completed July 2016"
+                  structuralEngineer="Ecos Macleen"
+                  servicesEngineer="-"
+                  contractor="Guy Mallinson + master craftsmen" 
+                  contractValue="£150k"
                   />
                 </div>
+                <div className="photographerInfo">
+                    <p className="projectDescHeading">Photograper:</p>
+                    <p className="descInfo">Sandy Steele Perkins Photography</p>
+                    </div>
               
                 <div className="projectDescriptionLong-treehouse">
                 <p>
@@ -56,6 +60,7 @@ function TreehouseProject() {
                   function and hierarchy of internal spaces resulting in an
                   imaginary, jostled and characterful appearance.
                 </p>
+                <br/>
                 <p>
                   The treehouse is planned around a central rotunda which
                   accommodates the central living space, off which all other

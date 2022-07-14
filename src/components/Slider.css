@@ -82,6 +82,11 @@
   width: 20vw;
 }
 
+.photographerInfo {
+  display: flex;
+  flex-direction: row;
+}
+
 .verticalLineAndDesc {
   display: flex;
   flex-direction: column;

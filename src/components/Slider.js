@@ -1,16 +1,16 @@
 import React from "react";
 import "./Slider.css";
-import Treehouse1 from "../TreehouseImages/Treehouse1.jpg";
-import Treehouse2 from "../TreehouseImages/Treehouse2.jpg";
-import Treehouse3 from "../TreehouseImages/Treehouse3.jpg";
-import Treehouse4 from "../TreehouseImages/Treehouse4.jpg";
-import Treehouse5 from "../TreehouseImages/Treehouse5.jpg";
-import Treehouse6 from "../TreehouseImages/Treehouse6.jpg";
+import Treehouse1 from "../components/Treehouse/TreehousePhotos/Treehouse1.jpg";
+import Treehouse2 from "../components/Treehouse/TreehousePhotos/Treehouse2.jpg";
+import Treehouse3 from "../components/Treehouse/TreehousePhotos/Treehouse3.jpg";
+import Treehouse4 from "../components/Treehouse/TreehousePhotos/Treehouse4.jpg";
+import Treehouse5 from "../components/Treehouse/TreehousePhotos/Treehouse5.jpg";
+import Treehouse6 from "../components/Treehouse/TreehousePhotos/Treehouse6.jpg";
 
 function Slider() {
   return (
     <div className="App">
-      <div class="slides">
+      <div className="slides">
         <div>
           <img src={Treehouse1} alt="Treehouse1" className="slideImgs" />
         </div>

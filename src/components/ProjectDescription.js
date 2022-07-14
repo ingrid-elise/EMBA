@@ -8,8 +8,8 @@ function ProjectDescription(props) {
         <p className="descHeading">Client:</p>
         <p className="descHeading">Architect:</p>
         <p className="descHeading">Status:</p>
-        <p className="descHeading">Project Team:</p>
-        <p className="descHeading">Photographer:</p>
+        <p className="descHeading">Structural Engineer:</p>
+        <p className="descHeading">Services Engineer:</p>
         <p className="descHeading">Contractor:</p>
         <p className="descHeading">Contract Value:</p>
       </div>
@@ -17,8 +17,8 @@ function ProjectDescription(props) {
         <p className="descInfo">{props.clientName}</p>
         <p className="descInfo">{props.architect}</p>
         <p className="descInfo">{props.projectStatus}</p>
-        <p className="descInfo">{props.projectTeam}</p>
-        <p className="descInfo">{props.photographer}</p>
+        <p className="descInfo">{props.structuralEngineer}</p>
+        <p className="descInfo">{props.servicesEngineer}</p>
         <p className="descInfo">{props.contractor}</p>
         <p className="descInfo">{props.contractValue}</p>
       </div>

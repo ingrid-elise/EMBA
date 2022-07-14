@@ -17,7 +17,7 @@ function PracticePage() {
                 <p className="dropdownTitle">01.</p>
               </div>
               <div className="dropdownText" id="aboutTextHover">
-                <p className="paragraphText">
+                <p className="paragraphTextPracticePage">
                   We bring our experience from leading, top-tier architectural
                   practices to new design and ecologically-led architecture and
                   development projects. We support openness to change, boldness
@@ -39,7 +39,7 @@ function PracticePage() {
                 <p className="dropdownTitle">02.</p>
               </div>
               <div className="dropdownText" id="awarenessTextHover">
-                <div className="paragraphText">
+                <div className="paragraphTextPracticePage">
                   <p>
                   The economy of construction is not aligned with the ecology of
                   our planet and consequently cities, urban environments and
@@ -76,7 +76,7 @@ function PracticePage() {
                 <p className="dropdownTitle">03.</p>
               </div>
               <div className="dropdownText" id="philosophyTextHover">
-                <p className="paragraphText">
+                <p className="paragraphTextPracticePage">
                   For us the design process begins with intelligent decision
                   making about networking the ecology of the site into the
                   design of the building; its mass, form, layout, use,
@@ -95,7 +95,7 @@ function PracticePage() {
                 <p className="dropdownTitle">04.</p>
               </div>
               <div className="dropdownText" id="purposeTextHover">
-                <p className="paragraphText">
+                <p className="paragraphTextPracticePage">
                   Through observing buildings as extensions of ecology we apply
                   modern thinking and knowledge to develop new architectural
                   design practices and techniques that seek to redefine

@@ -7,6 +7,8 @@ import MenuProjects from "./MenuProjects";
 function HeaderProjectsPage() {
   const [checked, setChecked] = useState(false);
 
+
+  // for mobile header
   const handleMouseDown = (e) => {
     toggleMenu();
 

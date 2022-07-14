@@ -1,0 +1,258 @@
+.descAndSlider-greenSquare {
+    box-sizing: border-box; /* ensures padding and border are included in the total width and height of the elements. */
+    /* display: grid;
+      grid-template-columns: 1fr 2fr; */
+    padding-bottom: 10vh; /* adds padding between projects */
+    width: auto;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .projectDescription-greenSquare {
+    /* border: 1px solid orange; */
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    line-height: normal;
+    margin-left: 60px;
+    padding-top: 10px;
+    position: absolute;
+    top: 290rem; /* distance from top of page, need to adjust this when info is correct */
+    width: 30vw;
+  }
+  
+  .projectDescriptionLong-greenSquare {
+    padding-top: 26rem;
+    line-height: normal;
+    margin-left: 60px;
+    width: 30vw;
+  }
+  
+  .projectDescInfo {
+    /* width: 20vw; */
+    float: right;
+    /* border: 1px solid purple; */
+  }
+  
+  .descHeading {
+    /* border: 1px solid blue; */
+    line-height: normal;
+  }
+  
+  #descHeadingProjectTeam {
+    height: 63px;
+  }
+  
+  .descInfo {
+    line-height: normal;
+  }
+  
+  .verticalLineAndDesc-greenSquare {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .greenSquareSlider {
+    height: fit-content;
+    padding-top: 7vh;
+  }
+  
+  .projectDescHeading {
+    color: #969696;
+    padding-right: 3vw;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .projectAddressBlock-greenSquare {
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 661px;
+    justify-content: flex-end;
+    line-height: 0px;
+    margin-left: 60px;
+    position: absolute;
+    width: 30vw;
+  }
+  
+  .projectAddress {
+    font-size: 1.4rem;
+    font-weight: 100;
+    padding-bottom: 0.7rem;
+  }
+  
+  @media (max-width: 1210px) {
+    .App {
+      width: 100vw;
+    }
+  
+    .descAndSlider-greenSquare {
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 10vh;
+      width: 100%;
+    }
+  
+    .projectAddressBlock-greenSquare {
+      border-bottom: none;
+      display: flex;
+      flex-direction: column;
+      /* height: 40vh; */
+      line-height: 0px;
+      margin-left: 60px;
+      margin-top: 40px;
+      position: absolute;
+      /* background-color: blue; */
+      z-index: 1;
+      /* width: 50vw; */
+    }
+  
+    .projectAddress {
+      font-size: 1.4rem;
+      font-weight: 100;
+      padding-bottom: 0.7rem;
+      width: 90vw;
+      border-bottom: 1px solid black;
+    }
+  
+    .projectDescription-greenSquare {
+      /* border: 1px solid orange; */
+      border-top: 1px solid black;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      line-height: normal;
+      margin-left: 60px;
+      position: absolute;
+      top: 97rem;
+      width: 90vw;
+      margin-top: 25vh;
+      padding-top: 10px;
+      padding-bottom: 20px;
+    }
+  
+    .projectDescriptionLong-greenSquare {
+      padding-top: 0rem;
+        /* margin-left: 330px; */
+        margin-left: 40vw;
+        width: 55vw;
+        margin-top: 12.5vh;
+        top: 105rem;
+        position: absolute;
+    }
+  
+  
+    /* .projectDescriptionLong-fulhamRd {
+      padding-top: 34rem;
+      line-height: normal;
+      margin-left: 60px;
+      width: 30vw;
+    } */
+  
+      .slides {
+      height: 60vh;
+      width: 100%;
+      z-index: 2;
+    }
+  
+    .slideImgs {
+      height: 60vh;
+      width: auto;
+    }
+  
+    .slides > div {
+      height: 60vh;
+      width: auto;
+    }
+  }
+  
+  /* Mobile Phone Size */
+  @media (max-width: 700px) {
+    /* .App {
+      width: 100vw;
+    } */
+    .descAndSlider-greenSquare {
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 5vh;
+      width: 100%;
+      padding-top: 250px;
+    }
+  
+    .projectAddressBlock-greenSquare {
+      border-bottom: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      height: 40vh;
+      line-height: 0px;
+      margin-left: 20px;
+      /* margin-right: 10px; */
+      position: absolute;
+      width: 90vw;
+      /* background-color: blue; */
+      z-index: 1;
+    }
+  
+    .projectAddress {
+      font-size: 1.4rem;
+      font-weight: 100;
+      padding-bottom: 0.7rem;
+      width: 90vw;
+      /* border-bottom: 1px solid black; */
+      /* background-color: blue; */
+    }
+  
+    .projectAddress {
+      font-size: 1rem;
+    }
+    
+    .projectDescription-greenSquare {
+      /* border: 1px solid orange; */
+      border-top: 1px solid black;
+      display: flex;
+      flex-direction: row;
+      /* height: auto; */
+      justify-content: flex-start;
+      line-height: normal;
+      margin-left: 10px;
+      padding-top: 10px;
+      position: absolute;
+      margin-top: 90px;
+      top: 870px;
+      width: 95vw;
+    }
+  
+    .projectDescInfo {
+      width: auto;
+    }
+  
+    .treehouseSlider {
+      padding-top: 0vh;
+    }
+  
+    .slides {
+      height: 280px;
+      width: 100%;
+      z-index: 2;
+    }
+  
+    .slideImgs {
+      height: 280px;
+      width: auto;
+    }
+  
+    .slides > div {
+      height: 280px;
+      width: auto;
+    }
+  }
+  
+  

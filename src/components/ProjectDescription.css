@@ -5,10 +5,12 @@
 
 .projectDescHeading {
     color: #969696;
+    width: 8vw;
+    /* background-color: pink; */
   }
 
   .projectDescInfo {
-    width: 20vw;
+    /* width: 20vw; */
   }
 
 
