@@ -4,8 +4,10 @@ import CanterburyHouseSlider from "./CanterburyHouseSlider";
 import ProjectDescription from "../ProjectDescription";
 
 function CanterburyHouseProject() {
-  const [isHoveringCanterburyHouse, setIsHoveringCanterburyHouse] = useState(false);
-  const [hideTitleCanterburyHouse, setHideTitleCanterburyHouse] = useState(true);
+  const [isHoveringCanterburyHouse, setIsHoveringCanterburyHouse] =
+    useState(false);
+  const [hideTitleCanterburyHouse, setHideTitleCanterburyHouse] =
+    useState(true);
 
   function handleMouseEnterCanterburyHouse() {
     setIsHoveringCanterburyHouse(true);
@@ -34,25 +36,25 @@ function CanterburyHouseProject() {
                 <ProjectDescription
                   clientName="Lancer Asset Management"
                   architect="Horden Cherry Lee Architects"
-                  projectStatus="Completed April 2017"
-                  structuralEngineer="-"
-                  servicesEngineer="FHP"
-                  contractor="Overbury"
-                  contractValue="£2.4m"
+                  projectStatus="Planning Application 2017"
+                  structuralEngineer="Robert Bird"
+                  servicesEngineer="Foreman Roberts"
+                  contractor="-"
+                  contractValue="-"
                 />
               </div>
               <div className="projectDescriptionLong-canterburyHouse">
                 <p>
-                  Office refurbishment of a refurbishment of an early modernist
-                  grade II* listed building of historic significance in Mayfair,
-                  London. The building was designed by Sir Hugh Casson and
-                  features works of art by Ben Nicolson and sculptures
-                  integrated in the fabric of the building by Barbara Hepworth.
-                  The scope included Cat A fit out of levels 2-4, remodelling of
-                  the ground floor reception area and the design of a new
-                  reception desk that incorporates the proportions, solid marble
-                  slabs, and other materials found in the original interior
-                  detailing.
+                  Concept and developed design for a new 33 storey high-rise
+                  residential tower in Croydon’s core tall building zone. The
+                  proposal incorporates 2 amenity floors as part of a ground
+                  level entrance podium comprising additional restaurant and
+                  retail uses. Externally, curved spandrel geometry is used to
+                  visually offset the high-density massing. The project was
+                  conceived in response to London’s emerging built to rent
+                  property sector. An emphasis is placed on communal social
+                  areas and integration with the urban realm at ground level
+                  through provision of an active street frontage.
                 </p>
               </div>
             </div>

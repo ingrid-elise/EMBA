@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./ShellHarbourProject.css";
 import ShellHarbourSlider from "./ShellHarbourSlider";
 import ProjectDescription from "../ProjectDescription";
@@ -43,17 +43,27 @@ function ShellHarbourProject() {
               </div>
               <div className="projectDescriptionLong-shellHarbour">
                 <p>
-                  A contemporary new build residential development comprising
-                  two four-bedroom mews houses with basements in Fulham, London.
-                  The constrained 218m2 former site of 6 derelict garages
-                  dictated maximising the building envelope and required
-                  overcoming technical and legal challenges. The building is
-                  constructed in London stock brick and features a minimalist
-                  aluminium framed glazed façade, fenestrated by a series of
-                  shimmering solar panel privacy shutters. These have the dual
-                  function of satisfying overlooking requirements and suppling
-                  renewable energy for fifty percent of the houses total energy
-                  consumption.
+                  A prime location, large-scale, premium residential development
+                  comprising 116 apartments split over two buildings with
+                  rooftop gardens planned around a private central courtyard
+                  piazza and pool. The project forms part of a wider masterplan
+                  for the development of a new beach side community and marina
+                  in Shell Cove Harbour, located south of Sydney. Located on a
+                  promenade, the design of the building embodies a sense of
+                  grandeur and has an intentionally striking form which
+                  generates a commanding presence.
+                </p>
+                <p>
+                  The architecture is informed by the waterfront location with
+                  the curved form and nautical detailing taking cue from the
+                  graceful shapes and details found in shipbuilding, whilst
+                  materials are selected for their longevity in a coastal
+                  setting. The building’s orientation is designed to maximise
+                  light and outlook to the headlands and the marina, and the
+                  façade draws on the idea of repetition and regular rhythm to
+                  create order. Here a structure of white concrete blades are
+                  conceived as a modern expression of classical column
+                  structure, and horizontal ladders create privacy for bedrooms.
                 </p>
               </div>
             </div>

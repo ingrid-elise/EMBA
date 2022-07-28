@@ -34,25 +34,26 @@ function BrutonLaneProject() {
                 <ProjectDescription
                   clientName="Lancer Asset Management"
                   architect="Horden Cherry Lee Architects"
-                  projectStatus="Completed April 2017"
-                  structuralEngineer="-"
-                  servicesEngineer="FHP"
-                  contractor="Overbury"
-                  contractValue="£2.4m"
+                  projectStatus="Tender 2017"
+                  structuralEngineer="Price and Myers"
+                  servicesEngineer="Hilson Moran"
+                  contractor="-"
+                  contractValue="£6.9m"
                 />
               </div>
               <div className="projectDescriptionLong-brutonLane">
                 <p>
-                  Office refurbishment of a refurbishment of an early modernist
-                  grade II* listed building of historic significance in Mayfair,
-                  London. The building was designed by Sir Hugh Casson and
-                  features works of art by Ben Nicolson and sculptures
-                  integrated in the fabric of the building by Barbara Hepworth.
-                  The scope included Cat A fit out of levels 2-4, remodelling of
-                  the ground floor reception area and the design of a new
-                  reception desk that incorporates the proportions, solid marble
-                  slabs, and other materials found in the original interior
-                  detailing.
+                  A challenging, high-value, seven storey mixed use development
+                  combining restaurant, office and residential uses on an
+                  especially constrained site in Mayfair, London. The building’s
+                  plan form is based on clear, rational geometry, using a
+                  uniform square split diagonally to form an isosceles triangle
+                  which orients the façade. This is extruded vertically to form
+                  a solid slab massing that maximises the available site area
+                  and potential building envelope. The design incorporates
+                  modern minimal detailing with generous proportions and
+                  travertine cladding to respond to the Georgian period stone
+                  faced building’s that front Bruton Street and Berkeley Square.
                 </p>
               </div>
             </div>

@@ -2,6 +2,7 @@ import React from "react";
 import TreehouseProject from "./components/treehouseProject";
 import "./ProjectsPage.css";
 import { Controller, Scene } from "react-scrollmagic";
+import { Link } from "react-router-dom";
 import HeaderProjectsPage from "./components/HeaderProjectsPage";
 import FulhamRdProject from "./components/FulhamRdProject";
 import ShellHarbourProject from "./components/ShellHarbour/ShellHarbourProject";
@@ -16,20 +17,8 @@ function ProjectsPage() {
       <HeaderProjectsPage />
       <div className="projectsPage">
         <h1 className="titleProjects">PROJECTS</h1>
-
-        <div className="section" />
-        <div id="trigger" />
         <Controller>
-          <Scene
-            duration={0}
-            classToggle="zap"
-            triggerElement="#trigger"
-            indicators={false}
-          >
-            <div className="test">
-              <TreehouseProject />
-            </div>
-          </Scene>
+          <TreehouseProject />
 
           <div className="sectionFRP" />
           <div id="triggerFRP" />
@@ -52,7 +41,7 @@ function ProjectsPage() {
             triggerElement="#triggerSH"
             indicators={false}
           >
-            <div className="testFRPShellHarbour">
+            <div className="testSH">
               <ShellHarbourProject />
             </div>
           </Scene>
@@ -108,22 +97,26 @@ function ProjectsPage() {
               <CanterburyHouseProject />
             </div>
           </Scene>
-
-
         </Controller>
-        <div className="sectionFRP" />
-
 
         <div className="footerProjectsPage">
           <img
-        className="embaLogoFooter"
-        src="images/EMBALogo.png"
-        alt="EMBALogoBlack"
-      />
-          <p>HOME</p>
-          <p>PRACTICE</p>
-          <p>PROJECTS</p>
-          <p>WORK TOGETHER</p>
+            className="embaLogoFooter"
+            src="images/EMBALogo.png"
+            alt="EMBALogoBlack"
+          />
+          <Link to="/" className="footerLink">
+            HOME
+          </Link>
+          <Link to="/PracticePage" className="footerLink">
+            PRACTICE
+          </Link>
+          <Link to="/ProjectsPage" className="footerLink">
+            PROJECTS
+          </Link>
+          <Link to="/WorkTogether" className="footerLink">
+            WORK TOGETHER
+          </Link>
         </div>
       </div>
     </div>

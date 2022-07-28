@@ -55,7 +55,7 @@
   margin-left: 60px;
   padding-top: 0.7rem;
   position: absolute;
-  top: 35rem;
+  top: 33rem;
   width: 30vw;
 }
 
@@ -138,13 +138,10 @@
     border-bottom: none;
     display: flex;
     flex-direction: column;
-    /* height: 40vh; */
     line-height: 0px;
     margin-left: 60px;
     position: absolute;
-    /* background-color: blue; */
     z-index: 1;
-    /* width: 50vw; */
   }
 
   .projectAddress {
@@ -159,7 +156,7 @@
     /* border: 1px solid orange; */
     border-top: 1px solid black;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     line-height: normal;
     margin-left: 60px;
@@ -174,7 +171,7 @@
 .projectDescriptionLong-treehouse {
   padding-top: 0rem;
   line-height: normal;
-  padding-left: 10px;
+  padding-top: 20px;
 }
 
   .treehouseSlider {
@@ -213,7 +210,6 @@
   }
 
   .projectAddressBlock {
-    border-bottom: 1px solid black;
     display: flex;
     flex-direction: column;
     height: 40vh;
@@ -221,7 +217,6 @@
     margin-left: 20px;
     position: absolute;
     width: 90vw;
-    /* background-color: blue; */
     z-index: 1;
   }
 
@@ -230,24 +225,19 @@
     font-weight: 100;
     padding-bottom: 0.7rem;
     width: 90vw;
-    /* border-bottom: 1px solid black; */
   }
 
   .projectDescription-treehouse {
-    /* border: 1px solid orange; */
     border-top: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     line-height: normal;
-    margin-left: 10px;
+    margin-left: 20px;
     position: absolute;
-    top: 39rem;
-    width: 95vw;
-    margin-top: -5vh;
+    top: 23.95rem;
+    width: 90vw;
     padding-top: 10px;
-    padding-bottom: 20px;
-    /* margin-bottom: 20px; */
   }
 
   .projectDescInfo {
@@ -256,7 +246,7 @@
 
   .projectDescriptionLong-treehouse {
     padding-left: 0px;
-    padding-top: 10px;
+    padding-top: 15px;
   }
 
 

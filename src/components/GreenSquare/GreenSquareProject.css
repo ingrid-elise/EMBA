@@ -104,14 +104,11 @@
       border-bottom: none;
       display: flex;
       flex-direction: column;
-      /* height: 40vh; */
       line-height: 0px;
       margin-left: 60px;
       margin-top: 40px;
       position: absolute;
-      /* background-color: blue; */
       z-index: 1;
-      /* width: 50vw; */
     }
   
     .projectAddress {
@@ -126,35 +123,25 @@
       /* border: 1px solid orange; */
       border-top: 1px solid black;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: flex-start;
       line-height: normal;
       margin-left: 60px;
       position: absolute;
       top: 97rem;
       width: 90vw;
-      margin-top: 25vh;
+      margin-top: 420vh;
       padding-top: 10px;
       padding-bottom: 20px;
     }
   
     .projectDescriptionLong-greenSquare {
       padding-top: 0rem;
-        /* margin-left: 330px; */
-        margin-left: 40vw;
-        width: 55vw;
+        width: 90vw;
         margin-top: 12.5vh;
-        top: 105rem;
+        top: 344rem;
         position: absolute;
     }
-  
-  
-    /* .projectDescriptionLong-fulhamRd {
-      padding-top: 34rem;
-      line-height: normal;
-      margin-left: 60px;
-      width: 30vw;
-    } */
   
       .slides {
       height: 60vh;
@@ -175,9 +162,6 @@
   
   /* Mobile Phone Size */
   @media (max-width: 700px) {
-    /* .App {
-      width: 100vw;
-    } */
     .descAndSlider-greenSquare {
       box-sizing: border-box;
       display: flex;
@@ -188,17 +172,15 @@
     }
   
     .projectAddressBlock-greenSquare {
-      border-bottom: 1px solid black;
       display: flex;
       flex-direction: column;
       height: 40vh;
       line-height: 0px;
       margin-left: 20px;
-      /* margin-right: 10px; */
       position: absolute;
       width: 90vw;
-      /* background-color: blue; */
       z-index: 1;
+      margin-top: 55px;
     }
   
     .projectAddress {
@@ -206,8 +188,6 @@
       font-weight: 100;
       padding-bottom: 0.7rem;
       width: 90vw;
-      /* border-bottom: 1px solid black; */
-      /* background-color: blue; */
     }
   
     .projectAddress {
@@ -219,15 +199,22 @@
       border-top: 1px solid black;
       display: flex;
       flex-direction: row;
-      /* height: auto; */
       justify-content: flex-start;
       line-height: normal;
-      margin-left: 10px;
+      margin-left: 20px;
       padding-top: 10px;
       position: absolute;
-      margin-top: 90px;
-      top: 870px;
-      width: 95vw;
+      top: 56rem;
+      width: 90vw;
+    }
+
+    .projectDescriptionLong-greenSquare {
+      padding-left: 0px;
+      padding-top: 10px;
+      margin-left: 20px;
+      width: 90vw;
+      margin-top: 0;
+      top: 274rem;
     }
   
     .projectDescInfo {

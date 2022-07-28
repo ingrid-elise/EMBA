@@ -6,16 +6,20 @@
 .projectDescHeading {
     color: #969696;
     width: 8vw;
-    /* background-color: pink; */
   }
 
-  .projectDescInfo {
-    /* width: 20vw; */
+  @media (max-width: 1210px) {
+
   }
 
-
-  @media (max-width: 700px) {
+  @media (max-width: 1210px) {
     .projectDescInfo {
       width: 20vw;
+    }
+
+    .projectDescHeading {
+      display: flex;
+      flex-direction: column;
+      width: 100px;
     }
   }

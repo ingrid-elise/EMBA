@@ -30,15 +30,11 @@ body {
 .footerProjectsPage {
   height: 50px;
   background-color: black;
-  color: white;
   display: flex;
   flex-direction: row;
   justify-content:flex-start;
   align-items: center;
-}
-
-.footerProjectsPage p {
-  padding-left: 30px;
+  margin-top: 200px;
 }
 
 .embaLogoFooter {
@@ -46,8 +42,15 @@ body {
   padding-left: 60px;
 }
 
+.footerLink {
+  text-decoration: none;
+  color: white;
+  padding-left: 30px;
+}
+
 
 @media (max-width: 700px) {
+
   .projectsPageBackground {
     height: 100vh;
     width: 100vw;
@@ -71,8 +74,17 @@ body {
     background-color: white;
   }
 
+  .footerProjectsPage {
+    margin-top: 300px;
+    font-size: small;
+  }
+
   .footerProjectsPage p {
     padding-left: 20px;
+  }
+
+  .footerLink {
+    padding-left: 10px;
   }
 
   .embaLogoFooter {
@@ -129,5 +141,68 @@ body {
 .zapSH {
   height: auto;
   opacity: 1;
-  /* background-color: pink; */
+}
+
+/* Time and Life */
+.sectionTAL {
+  height: 15vh;
+}
+
+.testTAL {
+  transition: opacity 0.5s ease-in-out;
+  margin: 0 !important;
+  opacity: 0;
+}
+
+.zapTAL {
+  height: auto;
+  opacity: 1;
+}
+
+/* Bruton Lane */
+.sectionBL {
+  height: 15vh;
+}
+
+.testBL {
+  transition: opacity 0.5s ease-in-out;
+  margin: 0 !important;
+  opacity: 0;
+}
+
+.zapBL {
+  height: auto;
+  opacity: 1;
+}
+
+/* Green Square */
+.sectionGS {
+  height: 15vh;
+}
+
+.testGS {
+  transition: opacity 0.5s ease-in-out;
+  margin: 0 !important;
+  opacity: 0;
+}
+
+.zapGS {
+  height: auto;
+  opacity: 1;
+}
+
+/* Canterbury House */
+.sectionCH {
+  height: 15vh;
+}
+
+.testCH {
+  transition: opacity 0.5s ease-in-out;
+  margin: 0 !important;
+  opacity: 0;
+}
+
+.zapCH {
+  height: auto;
+  opacity: 1;
 }

@@ -10,9 +10,6 @@ function WorkTogether() {
       <HeaderWorkTogetherPage />
       <div>
         <div className="formAndTitleRow">
-          <div className="workTogetherForm">
-            <Form />
-          </div>
           <div className="formAndTitleCol">
             <h1 className="titleWorkTogether">WORK TOGETHER</h1>
             <div className="workTogetherDropdowns">
@@ -157,6 +154,9 @@ function WorkTogether() {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="workTogetherForm">
+            <Form />
           </div>
         </div>
       </div>
