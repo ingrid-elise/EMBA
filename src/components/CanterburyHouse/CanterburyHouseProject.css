@@ -48,6 +48,7 @@
   .verticalLineAndDesc-canterburyHouse {
     display: flex;
     flex-direction: column;
+    font-size: 13px;
   }
   
   .canterburyHouseSlider {
@@ -68,7 +69,7 @@
     border-bottom: 1px solid black;
     display: flex;
     flex-direction: column;
-    height: 661px;
+    height: 664px;
     justify-content: flex-end;
     line-height: 0px;
     margin-left: 60px;

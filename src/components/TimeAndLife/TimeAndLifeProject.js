@@ -64,7 +64,7 @@ function TimeAndLifeProject() {
             `}
           >
             <div className="projectAddressBlock-timeAndLife">
-              <p className="projectAddress">Time and Life, -</p>
+              <p className="projectAddress">Time and Life, Mayfair, London</p>
             </div>
           </div>
         </div>

@@ -66,7 +66,7 @@ function CanterburyHouseProject() {
             `}
           >
             <div className="projectAddressBlock-canterburyHouse">
-              <p className="projectAddress">Canterbury House, -</p>
+              <p className="projectAddress">Canterbury House, Croydon, London</p>
             </div>
           </div>
         </div>

@@ -32,7 +32,7 @@ body {
   background-color: black;
   display: flex;
   flex-direction: row;
-  justify-content:flex-start;
+  justify-content: flex-start;
   align-items: center;
   margin-top: 200px;
 }
@@ -46,6 +46,8 @@ body {
   text-decoration: none;
   color: white;
   padding-left: 30px;
+  text-align: center;
+  padding-top: 5px;
 }
 
 

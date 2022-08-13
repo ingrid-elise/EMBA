@@ -3,9 +3,13 @@
     src: url("../Helvetica\ Neue\ LT\ Std/HelveticaNeueLTStd-Th.otf");    
   }
 
-.App {
+  .App {
     font-family: HelveticaNeueLTStd;
     text-align: center;
+  }
+
+  .msgText {
+    font-size: 16px;
   }
 
   .App button {
@@ -31,17 +35,27 @@
     justify-content: center;
     background: rgba(0, 0, 0, 0.7);
   }
+
+  .modal {
+    position: absolute;
+    right: 3%;
+    top: 29.5%;
+  }
+
   .container .modal {
     z-index: 1;
-    width: 350px;
-    height: 220px;
+    /* width: 350px;
+    height: 220px; */
+    width: 36vw;
+    height: 46vh;
+    padding: 30px;
     background: black;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 0px;
-    position: relative;
+    /* position: relative; */
     animation: animate 0.3s;
   }
   .modal button {

@@ -24,7 +24,7 @@ function HeaderProjectsPage() {
     <div className="headerLogoAndTextProjectsPage">
       <img
         className="embaLogo"
-        src="images/EMBALogoBlack.png"
+        src="images/EmbaLogoBlackThickWebsite.png"
         alt="EMBALogoBlack"
       />
       <div className="headerText">

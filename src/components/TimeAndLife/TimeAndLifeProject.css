@@ -18,25 +18,22 @@
     margin-left: 60px;
     padding-top: 10px;
     position: absolute;
-    top: 214rem; /* distance from top of page, need to adjust this when info is correct */
+    top: 211rem; /* distance from top of page, need to adjust this when info is correct */
     width: 30vw;
   }
   
   .projectDescriptionLong-timeAndLife {
-    padding-top: 36rem;
+    padding-top: 33.5rem;
     line-height: normal;
     margin-left: 60px;
     width: 30vw;
   }
   
   .projectDescInfo {
-    /* width: 20vw; */
     float: right;
-    /* border: 1px solid purple; */
   }
   
   .descHeading {
-    /* border: 1px solid blue; */
     line-height: normal;
   }
   
@@ -51,6 +48,7 @@
   .verticalLineAndDesc-timeAndLife {
     display: flex;
     flex-direction: column;
+    font-size: 13px;
   }
   
   .timeAndLifeSlider {
@@ -71,7 +69,7 @@
     border-bottom: 1px solid black;
     display: flex;
     flex-direction: column;
-    height: 661px;
+    height: 664px;
     justify-content: flex-end;
     line-height: 0px;
     margin-left: 60px;

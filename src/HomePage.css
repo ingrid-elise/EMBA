@@ -8,7 +8,6 @@ body {
 }
 
 p {
-  font-size: 12px;
   margin: 0;
 }
 
@@ -19,6 +18,7 @@ p {
   margin-left: 170px;
   align-items: baseline;
   margin-top: 100px;
+  font-size: 12px;
 }
 
 .linkNumbers {

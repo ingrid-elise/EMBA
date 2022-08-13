@@ -14,7 +14,7 @@ function Modal ({ setShowModal }) {
   return ReactDom.createPortal(
     <div className="container" ref={modalRef} onClick={closeModal}>
       <div className="modal">
-        <h2>Message Sent</h2>
+        <h2 className="msgText">Thank you for your message, we’ll be in touch soon.</h2>
         <button onClick={() => setShowModal(false)}>X</button>
       </div>
     </div>,

@@ -35,10 +35,10 @@
 .lighterFont {
   font-weight: 200;
   padding-left: 4px;
+  font-size: 12px;
 }
 
 p {
-  font-size: 12px;
   margin: 0;
 }
 
@@ -52,17 +52,19 @@ p {
 }
 
 #menuNavText {
-  font-size: 12px;
+  font-size: 13px;
+  font-weight: 600;
   margin-left: -3rem;
   margin-top: 1.2rem;
-  opacity: 50%;
+  opacity: 100%;
+  color: black;
   position: absolute;
 }
 
 .navLinks {
   color: white;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .navLinks:hover {

@@ -22,7 +22,7 @@ function HeaderPracticePage() {
 
   return (
     <div className="headerLogoAndTextPracticePage">
-      <img className="embaLogoPages" src="images/EMBALogo.png" alt="EMBALogo" />
+      <img className="embaLogoPages" src="images/EmbaLogoWhiteThickWebsite.png" alt="EMBALogo" />
       <div className="headerTextPages">
         <p className="bolderFontPages">Ecological</p>
         <p className="bolderFontPages">Material</p>

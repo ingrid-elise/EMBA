@@ -75,7 +75,7 @@ function ShellHarbourProject() {
             `}
           >
             <div className="projectAddressBlock-shellHarbour">
-              <p className="projectAddress">Nautilus, Shell Cove Harbour</p>
+              <p className="projectAddress">Nautilus, Shell Cove, NSW</p>
             </div>
           </div>
         </div>

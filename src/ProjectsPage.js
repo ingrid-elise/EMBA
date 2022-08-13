@@ -8,7 +8,7 @@ import FulhamRdProject from "./components/FulhamRdProject";
 import ShellHarbourProject from "./components/ShellHarbour/ShellHarbourProject";
 import TimeAndLifeProject from "./components/TimeAndLife/TimeAndLifeProject";
 import BrutonLaneProject from "./components/BrutonLane/BrutonLaneProject";
-import GreenSquareProject from "./components/GreenSquare/GreenSquareProject";
+// import GreenSquareProject from "./components/GreenSquare/GreenSquareProject";
 import CanterburyHouseProject from "./components/CanterburyHouse/CanterburyHouseProject";
 
 function ProjectsPage() {
@@ -72,7 +72,7 @@ function ProjectsPage() {
             </div>
           </Scene>
 
-          <div className="sectionGS" />
+          {/* <div className="sectionGS" />
           <div id="triggerGS" />
           <Scene
             duration={0}
@@ -83,7 +83,7 @@ function ProjectsPage() {
             <div className="testGS">
               <GreenSquareProject />
             </div>
-          </Scene>
+          </Scene> */}
 
           <div className="sectionCH" />
           <div id="triggerCH" />
@@ -102,8 +102,8 @@ function ProjectsPage() {
         <div className="footerProjectsPage">
           <img
             className="embaLogoFooter"
-            src="images/EMBALogo.png"
-            alt="EMBALogoBlack"
+            src="images/EmbaLogoWhiteThickWebsite.png"
+            alt="EMBALogoWhite"
           />
           <Link to="/" className="footerLink">
             HOME

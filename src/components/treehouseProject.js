@@ -48,7 +48,7 @@ function TreehouseProject() {
                     </div>
               
                 <div className="projectDescriptionLong-treehouse">
-                <p>
+                <p className="projectDescLongParagraph">
                   Bespoke, luxury treehouse accommodation in 200 year old
                   conservation woodland located in the earthy, romantic and
                   rural setting of the Dorset countryside, UK. Elevated 4.5m off
@@ -61,7 +61,7 @@ function TreehouseProject() {
                   imaginary, jostled and characterful appearance.
                 </p>
                 <br/>
-                <p>
+                <p className="projectDescLongParagraph">
                   The treehouse is planned around a central rotunda which
                   accommodates the central living space, off which all other
                   spaces connect. Found in these spaces are an abundance of

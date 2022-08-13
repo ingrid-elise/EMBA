@@ -38,7 +38,7 @@ textarea:focus {
 }
 
 .shortLineBelow {
-  width: 60px;
+  width: 30px;
   height: 0px;
   border: 2px solid #000000;
 }

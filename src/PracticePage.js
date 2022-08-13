@@ -39,27 +39,29 @@ function PracticePage() {
                 <p className="dropdownTitle">02.</p>
               </div>
               <div className="dropdownText" id="awarenessTextHover">
-                <div className="paragraphTextPracticePage">
-                  <p>
+                <div>
+                  <p className="paragraphTextPracticePage">
                   The economy of construction is not aligned with the ecology of
                   our planet and consequently cities, urban environments and
                   buildings do not share a symbiotic relationship with nature.
                   </p>
                   
-                  <p>
+                  <p className="paragraphTextPracticePage">
                     As a result of overlooking the potential integration of
                     available technologies and natural ecologies, many in-use
                     design and construction practices are outdated, inefficient
                     and now cause unnecessary harm to the environment and our
                     health.
                   </p>
-                  <p>
+                  
+                  <p className="paragraphTextPracticePage">
                     A paradigm shift in awareness, consciousness and thinking
                     alongside radical innovation and change is required in the
                     development and construction sectors if ‘urbanism’ is to
                     support longer term human futures, it must be redefined.
                   </p>
-                  <p>
+                  
+                  <p className="paragraphTextPracticePage">
                     We believe the same level of innovation is required in the
                     eco-technological advancement of construction material
                     (material ecologies) to overcome the problem of diminishing
@@ -113,8 +115,8 @@ function PracticePage() {
           {/* <p className="teamTitle">Team</p> */}
             <img
               className="dylanHeadShot"
-              src="./images/Dylan.png"
-              alt="Dylan Headshot"
+              src="./images/DylanPortraitPracticePage.jpg"
+              alt="Dylan Main Portrait"
             />
             <div className="caption">
               <div className="captionFirstLine">

@@ -65,7 +65,7 @@ function BrutonLaneProject() {
             `}
           >
             <div className="projectAddressBlock-brutonLane">
-              <p className="projectAddress">Bruton Lane, -</p>
+              <p className="projectAddress">Bruton Lane, Mayfair, London</p>
             </div>
           </div>
         </div>

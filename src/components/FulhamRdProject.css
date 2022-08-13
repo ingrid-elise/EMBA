@@ -1,7 +1,5 @@
 .descAndSlider-FulhamRd {
   box-sizing: border-box; /* ensures padding and border are included in the total width and height of the elements. */
-  /* display: grid;
-    grid-template-columns: 1fr 2fr; */
   padding-bottom: 10vh; /* adds padding between projects */
   width: auto;
   padding-top: 25px;
@@ -20,12 +18,12 @@
   margin-left: 60px;
   padding-top: 10px;
   position: absolute;
-  top: 97rem; /* distance from top of page, need to adjust this when info is correct */
+  top: 95rem; /* distance from top of page, need to adjust this when info is correct */
   width: 30vw;
 }
 
 .projectDescriptionLong-fulhamRd {
-  padding-top: 35rem;
+  padding-top: 33rem;
   line-height: normal;
   margin-left: 60px;
   width: 30vw;
@@ -53,6 +51,7 @@
 .verticalLineAndDesc-FulhamRd {
   display: flex;
   flex-direction: column;
+  font-size: 13px;
 }
 
 .treehouseSlider {
@@ -73,7 +72,11 @@
   border-bottom: 1px solid black;
   display: flex;
   flex-direction: column;
-  height: 661px;
+  /* height: 664px; */
+  /* height: 71%; */
+  /* height: 64%; */
+  height: 600px;
+  padding-top: 7vh;
   justify-content: flex-end;
   line-height: 0px;
   margin-left: 60px;

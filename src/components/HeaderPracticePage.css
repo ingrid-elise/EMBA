@@ -32,6 +32,7 @@
     font-weight: 600;
     color: black;
     opacity: 50%;
+    font-size: 12px;
   }
   
   .lineFourHeaderPages {
@@ -45,10 +46,10 @@
     padding-left: 4px;
     color: black;
     opacity: 50%;
+    font-size: 12px;
   }
   
   p {
-    font-size: 12px;
     margin: 0;
   }
   
@@ -62,10 +63,11 @@
   }
   
   #menuNavTextPages {
-    font-size: 12px;
+    font-size: 13px;
+    font-weight: 600;
     margin-left: -3rem;
-    margin-top: 1.2rem;
-    opacity: 50%;
+    margin-top: 1.35rem;
+    opacity: 100%;
     color: black;
     position: absolute;
   }
@@ -73,7 +75,7 @@
   .navLinksPages {
     color: white;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 13px;
   }
   
   .navLinksPages:hover {

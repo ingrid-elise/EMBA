@@ -22,7 +22,7 @@ function HeaderWorkTogetherPage() {
 
   return (
     <div className="headerLogoAndTextWTPage">
-      <img className="embaLogoWTPage" src="images/EMBALogo.png" alt="EMBALogo" />
+      <img className="embaLogoWTPage" src="images/EmbaLogoWhiteThickWebsite.png" alt="EMBALogo" />
       <div className="headerTextWTPage">
         <p className="bolderFontWTPage">Ecological</p>
         <p className="bolderFontWTPage">Material</p>

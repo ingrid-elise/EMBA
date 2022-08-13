@@ -24,6 +24,7 @@
     font-weight: 600;
     color: black;
     opacity: 50%;
+    font-size: 12px;
   }
   
   .lineFourHeaderWTPage {
@@ -34,13 +35,13 @@
   
   .lighterFontWTPage {
     font-weight: 200;
+    font-size: 12px;
     padding-left: 4px;
     color: black;
     opacity: 50%;
   }
   
   p {
-    font-size: 12px;
     margin: 0;
   }
   
@@ -54,10 +55,11 @@
   }
   
   #menuNavTextWTPage {
-    font-size: 12px;
+    font-size: 13px;
+    font-weight: 600;
     margin-left: -3rem;
     margin-top: 1.2rem;
-    opacity: 50%;
+    opacity: 100%;
     color: black;
     position: absolute;
   }
@@ -65,7 +67,7 @@
   .navLinksWTPage {
     color: white;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 13px;
   }
   
   .navLinksWTPage:hover {

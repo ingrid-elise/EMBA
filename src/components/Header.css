@@ -21,6 +21,7 @@
   font-weight: 600;
   color: black;
   opacity: 50%;
+  font-size: 12px;
 }
 
 .lineFourHeaderHomePage {
@@ -34,10 +35,10 @@
   padding-left: 4px;
   color: black;
   opacity: 50%;
+  font-size: 12px;
 }
 
 p {
-  font-size: 12px;
   margin: 0;
 }
 

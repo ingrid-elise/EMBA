@@ -35,14 +35,13 @@
 
 .descAndSlider {
   box-sizing: border-box; /* ensures padding and border are included in the total width and height of the elements. */
-  /* display: grid;
-  grid-template-columns: 1fr 2fr; */
   padding-bottom: 10vh; /* adds padding between projects */
   width: auto;
   padding-top: 25px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  font-size: 13px;
 }
 
 .projectDescription-treehouse {
@@ -55,7 +54,7 @@
   margin-left: 60px;
   padding-top: 0.7rem;
   position: absolute;
-  top: 33rem;
+  top: 31rem;
   width: 30vw;
 }
 
@@ -106,7 +105,9 @@
   border-bottom: 1px solid black;
   display: flex;
   flex-direction: column;
-  height: 71vh;
+  /* height: 71vh; */
+  /* height: 664px; */
+  height: 71%;
   justify-content: flex-end;
   line-height: 0px;
   margin-left: 60px;
@@ -249,6 +250,9 @@
     padding-top: 15px;
   }
 
+  .projectDescLongParagraph {
+    font-size: 13px;
+  }
 
   .treehouseSlider {
     padding-top: 0vh;
