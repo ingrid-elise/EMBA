@@ -6,10 +6,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-size: 13px;
   }
   
   .projectDescription-timeAndLife {
-    /* border: 1px solid orange; */
     border-top: 1px solid black;
     display: flex;
     flex-direction: row;
@@ -18,12 +18,12 @@
     margin-left: 60px;
     padding-top: 10px;
     position: absolute;
-    top: 211rem; /* distance from top of page, need to adjust this when info is correct */
+    top: 193.5rem; /* distance from top of page, need to adjust this when info is correct */
     width: 30vw;
   }
   
   .projectDescriptionLong-timeAndLife {
-    padding-top: 33.5rem;
+    padding-top: 34rem;
     line-height: normal;
     margin-left: 60px;
     width: 30vw;
@@ -95,6 +95,10 @@
       padding-bottom: 10vh;
       width: 100%;
     }
+
+    .timeAndLifeSlider {
+      padding-top: 11vh;
+    }
   
     .projectAddressBlock-timeAndLife {
       border-bottom: none;
@@ -102,7 +106,7 @@
       flex-direction: column;
       line-height: 0px;
       margin-left: 60px;
-      margin-top: 40px;
+      margin-top: 80px;
       position: absolute;
       z-index: 1;
     }
@@ -124,9 +128,9 @@
       line-height: normal;
       margin-left: 60px;
       position: absolute;
-      top: 97rem;
+      top: 191.4vh;
       width: 90vw;
-      margin-top: 222.7vh;
+      margin-top: 202.3vh;
       padding-top: 10px;
       padding-bottom: 20px;
     }
@@ -134,8 +138,8 @@
     .projectDescriptionLong-timeAndLife {
       padding-top: 0rem;
         width: 90vw;
-        margin-top: 12.5vh;
-        top: 228.5rem;
+        margin-top: 0vh;
+        top: 411vh;
         position: absolute;
     }
   
@@ -162,9 +166,9 @@
       box-sizing: border-box;
       display: flex;
       flex-direction: column;
-      padding-bottom: 5vh;
+      padding-bottom: 0vh;
       width: 100%;
-      padding-top: 250px;
+      padding-top: 25px;
     }
   
     .projectAddressBlock-timeAndLife {
@@ -176,7 +180,7 @@
       position: absolute;
       width: 90vw;
       z-index: 1;
-      margin-top: 55px;
+      margin-top: 115px;
     }
   
     .projectAddress {
@@ -200,7 +204,7 @@
       margin-left: 20px;
       padding-top: 10px;
       position: absolute;
-      top: 61.4rem;
+      top: 140.3vh;
       width: 90vw;
     }
 
@@ -210,14 +214,18 @@
       margin-left: 20px;
       width: 90vw;
       margin-top: 0;
-      top: 181rem;
+      top: 385vh;
+    }
+
+    .sectionTAL {
+      height: 0vh;
     }
   
     .projectDescInfo {
       width: auto;
     }
-  
-    .treehouseSlider {
+
+    .timeAndLifeSlider {
       padding-top: 0vh;
     }
   
@@ -236,6 +244,28 @@
       height: 280px;
       width: auto;
     }
+
+    /* Mobile CSS Project Description */
+
+  #projectDescriptionTextMobile {
+    z-index: 100;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #checked.hide {
+    transform: translate3d(-105vw, 0, 0);
+  }
+
+  #checked.show {
+    transform: translate3d(0vw, 0, 0);
+    overflow: hidden;
+  }
+
+  .projectDescriptionLong {
+    line-height: normal;
+    padding-top: 10px;
+  }
   }
   
   

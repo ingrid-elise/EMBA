@@ -256,7 +256,7 @@ body {
 @media (max-width: 700px) {
   .formAndTitleRow {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     padding-top: 20px;
     /* justify-content: center; */
     align-content: center;
@@ -269,19 +269,20 @@ body {
   .workTogetherForm {
     width: 85vw;
     margin-left: 50px;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 40px;
+    z-index: 5;
   }
 
   .workTogetherDropdowns {
-    width: 300px;
+    width: 71vw;
     margin-left: 0px;
   }
 
 
 .paragraphTextWorkTogether {
   width: auto;
-  margin-left: -100px;
+  /* margin-left: -150px; */
 }
 
 /* .paragraphTextPracticePage {
@@ -309,6 +310,18 @@ body {
     margin-top: 100px; /* same as practice page but does it look too low? */
   }
 
+  #sectorsHover{
+    z-index: 2;
+  }
+
+  #initialConHover {
+    z-index: 3;
+  }
+
+  #feesHover {
+    z-index: 3;
+  }
+
   #servicesHover:hover + #servicesHoverText {
     height: auto;
   }
@@ -323,12 +336,12 @@ body {
 
   #feesHover:hover + #feesHoverText {
     height: 400px;
-    padding-bottom: 20px;
+    padding-bottom: 200px;
   }
 
   .dropdownTextWorkTogether {
-    margin-left: 150px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 0px;
     transition: 0.3s ease-in-out;
   }
 }

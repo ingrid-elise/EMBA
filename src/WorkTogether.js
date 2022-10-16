@@ -83,7 +83,9 @@ function WorkTogether() {
                     Initial consultations are required for all projects to
                     discuss the client’s project objectives and requirements
                     before a fee estimate can be provided.
-                    <p className="paragraphTextWorkTogether">Initial consultation fee: £200</p>
+                    <p className="paragraphTextWorkTogether">
+                      Initial consultation fee: £200
+                    </p>
                     <p className="paragraphTextWorkTogether">
                       Before we commence work, a written agreement must be
                       signed and an upfront fee for the equivalent of 5 hours
@@ -100,55 +102,56 @@ function WorkTogether() {
                 </div>
                 <div className="dropdownTextWorkTogether" id="feesHoverText">
                   <p className="paragraphTextWorkTogether">
-                    Fees reflect the standard of service we offer, and are
-                    structured in one of three ways depending on the type of
-                    project. Please contact us for hourly rates or further
-                    information.
+                    Fees reflect the quality of service offered and are
+                    structured in one of three ways depending on the specifics
+                    of a project, client preference and the scope of services to
+                    be provided. Before we commence work on a formal written
+                    agreement is signed, and an advance fee of £500 is paid to
+                    ensure client commitment.
                     <div>
-                      <br/>
-                      <p className="underlineText">Time charge</p>
-                      <p className="underlineText">
-                        For: Small project and/or construction
+                      <br />
+                      <p className="underlineText">Initial Consultation</p>
+                      <p className="paragraphTextWorkTogether">
+                        Flat rate fee: £200
                       </p>
                       <p className="paragraphTextWorkTogether">
-                        Hourly rates are provided at the start of the project,
-                        recorded and invoiced monthly.
+                        Initial consultations are held with all clients to
+                        discuss project requirements, define the scope of
+                        services to be provided and to formulate a project
+                        brief.
+                      </p>
+                      <p className="underlineText">
+                        Small projects & private clients:
+                      </p>
+                      <p className="paragraphTextWorkTogether">
+                        Time charge whereby fees are calculated on hourly and
+                        daily rates. Please see below.
+                      </p>
+                      <p className="paragraphTextWorkTogether">
+                        Or, fees are calculated as a percentage of the
+                        construction cost generally negotiated between 10-15%
+                        based on project requirements.
                       </p>
                     </div>
                     <div>
-                      <p className="paragraphTextWorkTogether">Fee Percentage</p>
                       <p className="underlineText">
-                        For: Mid-large scale project or high end residences
+                        Medium & large-scale projects:
                       </p>
                       <p className="paragraphTextWorkTogether">
-                        Negotiated rates calculated based on construction cost
-                        and QS reports. Typically varies between 8-15% depending
-                        on the scale and nature of the project/ site. For
-                        large-scale projects the negotiated percentage may be
-                        lower. A fee-estimate and breakdown is provided based on
-                        defined stages of work.
-                      </p>
-                    </div>
-                    <div>
-                      <p className="paragraphTextWorkTogether">Fixed Fee</p>
-                      <p className="underlineText">
-                        For: Business and developer clients only
+                        Fees are calculated as a percentage of the construction
+                        cost and are generally negotiated between:
                       </p>
                       <p className="paragraphTextWorkTogether">
-                        Where the client needs to understand fees upfront before
-                        progressing with the project.
+                        6-12% for medium-scale projects, under 6% for
+                        large-scale projects
                       </p>
+                      {/* <p className="paragraphTextWorkTogether">
+                        under 6% for large-scale projects
+                      </p> */}
                       <p className="paragraphTextWorkTogether">
-                        Where the parameters of the project and scope of
-                        services to be provided are clear.
-                      </p>
-                      <p className="paragraphTextWorkTogether">
-                        Resourcing is calculated against the services to be
-                        provided.
-                      </p>
-                      <p className="paragraphTextWorkTogether">
-                        A fee-estimate and breakdown is provided based on
-                        defined stages of work.
+                        Or, fixed cost; a fee proposal is prepared based on a
+                        time, services and resourcing calculation and the
+                        construction stage conducted on a time charge basis.
                       </p>
                     </div>
                   </p>

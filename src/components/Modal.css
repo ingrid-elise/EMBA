@@ -23,17 +23,16 @@
     color: black;
     cursor: pointer;
   }
+  
   #portal .container {
-    position: fixed;
+    position: static;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, 0.7);
   }
 
   .modal {
@@ -43,27 +42,30 @@
   }
 
   .container .modal {
-    z-index: 1;
-    /* width: 350px;
-    height: 220px; */
+    z-index: 6;
     width: 36vw;
     height: 46vh;
     padding: 30px;
-    background: black;
-    color: white;
+    background: lightgray;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 0px;
-    /* position: relative; */
-    animation: animate 0.3s;
+
+    animation-name: modal;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+
+    border: 1px solid black;
   }
+
   .modal button {
     position: absolute;
     top: 7px;
     right: 7px;
     padding: 8px 11px;
-    background: #bd9581;
+    background: black;
     color: white;
     font-weight: lighter;
     border: none;
@@ -71,12 +73,31 @@
     border-radius: 0px;
     cursor: pointer;
   }
-  @keyframes animate {
+
+  @keyframes modal {
     from {
-      transform: scale(0.5);
+      border: 1px solid lightgray;
     }
     to {
-      transform: scale(1);
+      border: 1px solid black;
     }
   }
-  
+
+  @media (max-width: 1210px) {
+  .modal {
+    top: 29%;
+  }
+  }
+
+  @media (max-width: 700px) {
+    .modal {
+      top: 77%;
+      right: 0%;
+      left: 0%;
+    }
+
+    .container .modal {
+      width: auto;
+      height: 55vh;
+    }
+  }

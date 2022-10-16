@@ -13,22 +13,30 @@ function PracticePage() {
             <div className="about">
               <div className="shortline"></div>
               <div className="titleAndNumber" id="aboutSectionHover">
-                <p className="dropdownTitle">About</p>
+                <p className="dropdownTitle">What We Do</p>
                 <p className="dropdownTitle">01.</p>
               </div>
               <div className="dropdownText" id="aboutTextHover">
                 <p className="paragraphTextPracticePage">
-                  We bring our experience from leading, top-tier architectural
-                  practices to new design and ecologically-led architecture and
-                  development projects. We support openness to change, boldness
-                  in innovation with consciousness, progressive technology for
-                  the enhancement of natural and urban environments, material
-                  innovation, architecture for health and wellness, and
-                  sustainable profitability in and beyond fiscal systems. We
-                  believe the future of architecture and urbanism is in the
-                  ecological advancement, technology, production, use,
-                  implementation, impact, adaptation, re-use and regeneration of
-                  the material – its material ecology, or life-cycle.
+                  We design modern, low environmental impact, sustainable and
+                  ecologically focused buildings that integrate natural building
+                  products and innovative material technology to have as little
+                  adverse impact on the planet as possible yet still deliver
+                  design excellence and performance for our partners, clients
+                  and users.
+                </p>
+                <p className="paragraphTextPracticePage">
+                  We bring our experience from leading architectural practices
+                  to new projects with openminded and forward-thinking clients,
+                  developers, organisations and consultants to positively shape
+                  our future across all of the following building typologies
+                  including; spaces of wellness, functional health, retreats,
+                  hotels, workspaces, multi-residential, private residential,
+                  environmental, public sector, bio and agri-industry projects.
+                </p>
+                <p className="paragraphTextPracticePage">
+                  We support openness to change and boldness in innovation with
+                  consciousness.
                 </p>
               </div>
             </div>
@@ -41,32 +49,31 @@ function PracticePage() {
               <div className="dropdownText" id="awarenessTextHover">
                 <div>
                   <p className="paragraphTextPracticePage">
-                  The economy of construction is not aligned with the ecology of
-                  our planet and consequently cities, urban environments and
-                  buildings do not share a symbiotic relationship with nature.
+                    We are confronted with the fact buildings and urban areas
+                    embody more carbon than any other known products, have some
+                    of the most far reaching and devastating impacts on our
+                    natural environment and drastically contribute to the
+                    increasing problem of diminishing material resources.
                   </p>
-                  
+
                   <p className="paragraphTextPracticePage">
-                    As a result of overlooking the potential integration of
-                    available technologies and natural ecologies, many in-use
-                    design and construction practices are outdated, inefficient
-                    and now cause unnecessary harm to the environment and our
-                    health.
+                    The economy of construction is not aligned with the ecology
+                    of our planet and consequently cities, urban environments
+                    and buildings do not share a symbiotic relationship with
+                    nature. Many widely used design and construction practices
+                    are outdated and inefficient, while industrial manufacturing
+                    processes for materials directly and indirectly causes
+                    unnecessary harm to the environment and our health.
                   </p>
-                  
+
                   <p className="paragraphTextPracticePage">
                     A paradigm shift in awareness, consciousness and thinking
                     alongside radical innovation and change is required in the
                     development and construction sectors if ‘urbanism’ is to
-                    support longer term human futures, it must be redefined.
-                  </p>
-                  
-                  <p className="paragraphTextPracticePage">
-                    We believe the same level of innovation is required in the
-                    eco-technological advancement of construction material
-                    (material ecologies) to overcome the problem of diminishing
-                    material resources, damaging industrial production processes
-                    and to support continued market-capitalisation.
+                    support longer term human futures. It needs to be redefined.
+                    Here Architects and Developers are responsible for radially
+                    re-thinking their practice if sustainable development is to
+                    be achieved.
                   </p>
                 </div>
               </div>
@@ -74,19 +81,44 @@ function PracticePage() {
             <div className="philosophy">
               <div className="shortline"></div>
               <div className="titleAndNumber" id="philosophySectionHover">
-                <p className="dropdownTitle">Philosophy</p>
+                <p className="dropdownTitle">Design Philosophy</p>
                 <p className="dropdownTitle">03.</p>
               </div>
               <div className="dropdownText" id="philosophyTextHover">
                 <p className="paragraphTextPracticePage">
-                  For us the design process begins with intelligent decision
-                  making about networking the ecology of the site into the
-                  design of the building; its mass, form, layout, use,
-                  environmental and technical systems and performance. We then
-                  explore the ecological integration and properties of the
-                  building materials to be selected or developed, and the
-                  continued or life-time relationship between the building, its
-                  environment and users.
+                  Behind our design philosophy is the question ‘how can
+                  buildings restore our connection with nature, drive economic
+                  growth, support the continued supply of resources and at the
+                  same time meet our client’s objectives?” Responding to these
+                  often-conflicting objectives is at the core of our design
+                  approach and fosters innovation.
+                </p>
+                <p className="paragraphTextPracticePage">
+                  We believe one of the core ways to accomplish this is through
+                  technological and ecological integration and the innovation of
+                  natural, bio-dynamic construction materials, passive
+                  architectural and environmental systems and their
+                  implementation in building projects. Creating beneficial
+                  interdependency according to the specific conditions of a
+                  site, its context, and the unique requirements of a project.
+                </p>
+                <p className="paragraphTextPracticePage">
+                  We see buildings as extensions of our ecology and believe the
+                  future of architecture and urbanism lies in the ecological
+                  advancement, technology, production, use, quantity,
+                  implementation, impact, adaptation, re-use and regeneration of
+                  the materials used, their construction arrangement, and their
+                  lifecycle. Their ‘material ecology'.
+                </p>
+                <p className="paragraphTextPracticePage">
+                  In our studio the design process begins with intelligent
+                  decision making about networking the ecology of the site into
+                  the design of the building; its mass, form, layout, use,
+                  construction materials, environmental, energy and technical
+                  systems and performance are all explored for their potential
+                  integration. We then consider the continued or life-time
+                  relationship between the building, its users and its
+                  environment.
                 </p>
               </div>
             </div>
@@ -98,21 +130,18 @@ function PracticePage() {
               </div>
               <div className="dropdownText" id="purposeTextHover">
                 <p className="paragraphTextPracticePage">
-                  Through observing buildings as extensions of ecology we apply
-                  modern thinking and knowledge to develop new architectural
-                  design practices and techniques that seek to redefine
-                  urbanism, development, construction and revolutionise material
-                  technology and the use and production of construction
-                  materials. The purpose being to deliver, superior,
-                  contemporary and high- performance buildings for clients and
-                  users and to achieve sustainable development.
+                  Our goal is to expand the possibilities of ecologically
+                  innovative buildings and typologies to collectively enhance
+                  and re-program our lives, resolve the complex and detached
+                  human condition and bring people and buildings back into
+                  balance with nature.
                 </p>
               </div>
             </div>
           </div>
 
           <div className="imageBlock">
-          {/* <p className="teamTitle">Team</p> */}
+            {/* <p className="teamTitle">Team</p> */}
             <img
               className="dylanHeadShot"
               src="./images/DylanPortraitPracticePage.jpg"

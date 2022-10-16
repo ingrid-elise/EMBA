@@ -179,3 +179,16 @@ p {
   }
 }
 
+@media (max-width: 600px) {
+
+  .singleLinkPractice {
+    margin-bottom: 58px;
+  }
+
+  .singleLinkPractice,
+  .singleLinkProjects,
+  .singleLinkWorkTogether {
+    font-size: 37px;
+  }
+
+}

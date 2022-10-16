@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./HeaderProjectsPage.css";
 import { Link } from "react-router-dom";
 import MenuButtonProjectsPage from "./MenuButtonProjectsPage";
@@ -7,19 +7,19 @@ import MenuProjects from "./MenuProjects";
 function HeaderProjectsPage() {
   const [checked, setChecked] = useState(false);
 
-
   // for mobile header
   const handleMouseDown = (e) => {
     toggleMenu();
 
     console.log("clicked");
     e.stopPropagation();
-  }
+  };
 
   const toggleMenu = () => {
     setChecked(!checked);
-    console.log("checked")
+    console.log("checked");
   };
+
   return (
     <div className="headerLogoAndTextProjectsPage">
       <img
@@ -45,7 +45,11 @@ function HeaderProjectsPage() {
           <Link to="/PracticePage" className="navLinks" id="navLinksPractice">
             PRACTICE
           </Link>
-          <Link to="/WorkTogether" className="navLinks" id="navLinksWorkTogether">
+          <Link
+            to="/WorkTogether"
+            className="navLinks"
+            id="navLinksWorkTogether"
+          >
             WORK TOGETHER
           </Link>
         </div>
@@ -53,14 +57,12 @@ function HeaderProjectsPage() {
 
       {/* mobile header */}
       <div className="banner-area">
-      <MenuButtonProjectsPage 
-      handleMouseDown={handleMouseDown}
-      />
-      <MenuProjects
-      handleMouseDown={handleMouseDown}
-      menuVisibility={checked}
-      />
-    </div>
+        <MenuButtonProjectsPage handleMouseDown={handleMouseDown} />
+        <MenuProjects
+          handleMouseDown={handleMouseDown}
+          menuVisibility={checked}
+        />
+      </div>
     </div>
   );
 }

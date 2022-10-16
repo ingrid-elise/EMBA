@@ -1,0 +1,19 @@
+#projectDescriptionTextMobile {
+    z-index: 100;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#projectDescriptionTextMobile.hide {
+    transform: translate3d(-105vw, 0, 0);
+}
+
+#projectDescriptionTextMobile.show {
+    transform: translate3d(0vw, 0, 0);
+    overflow: hidden;
+}
+
+.projectDescriptionLong {
+    line-height: normal;
+    padding-top: 10px;
+}

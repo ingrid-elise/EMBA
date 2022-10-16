@@ -1,241 +1,217 @@
 .descAndSlider-shellHarbour {
-    box-sizing: border-box; /* ensures padding and border are included in the total width and height of the elements. */
-    padding-bottom: 10vh; /* adds padding between projects */
-    width: auto;
-    padding-top: 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  box-sizing: border-box; /* ensures padding and border are included in the total width and height of the elements. */
+  padding-bottom: 10vh; /* adds padding between projects */
+  width: auto;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.projectDescription-shellHarbour {
+  border-top: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: normal;
+  margin-left: 60px;
+  padding-top: 10px;
+  position: absolute;
+  top: 128rem; /* distance from top of page, need to adjust this when info is correct */
+  width: 30vw;
+}
+
+.projectDescriptionLong-shellHarbour {
+  padding-top: 20px;
+}
+
+.projectDescInfo {
+  float: right;
+}
+
+.descHeading {
+  line-height: normal;
+}
+
+#descHeadingProjectTeam {
+  height: 63px;
+}
+
+.descInfo {
+  line-height: normal;
+}
+
+.verticalLineAndDesc-shellHarbour {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+
+.shellHarbourSlider {
+  height: fit-content;
+  padding-top: 7vh;
+}
+
+.projectDescHeading {
+  color: #969696;
+  padding-right: 3vw;
+}
+
+.hidden {
+  display: none;
+}
+
+.projectAddressBlock-shellHarbour {
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 664px;
+  justify-content: flex-end;
+  line-height: 0px;
+  margin-left: 60px;
+  position: absolute;
+  width: 30vw;
+}
+
+.projectAddress {
+  font-size: 1.4rem;
+  font-weight: 100;
+  padding-bottom: 0.7rem;
+}
+
+@media (max-width: 1210px) {
+  .App {
+    width: 100vw;
   }
-  
-  .projectDescription-shellHarbour {
-    border-top: 1px solid black;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    line-height: normal;
-    margin-left: 60px;
-    padding-top: 10px;
-    position: absolute;
-    top: 147rem; /* distance from top of page, need to adjust this when info is correct */
-    width: 30vw;
-  }
-  
-  .projectDescriptionLong-shellHarbour {
-    padding-top: 27rem;
-    line-height: normal;
-    margin-left: 60px;
-    width: 30vw;
-  }
-  
-  .projectDescInfo {
-    float: right;
-  }
-  
-  .descHeading {
-    line-height: normal;
-  }
-  
-  #descHeadingProjectTeam {
-    height: 63px;
-  }
-  
-  .descInfo {
-    line-height: normal;
-  }
-  
-  .verticalLineAndDesc-shellHarbour {
+
+  .descAndSlider-shellHarbour {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    font-size: 13px;
+    padding-bottom: 10vh;
+    padding-top: 180px;
+    width: 100%;
   }
-  
-  .shellHarbourSlider {
-    height: fit-content;
-    padding-top: 7vh;
-  }
-  
-  .projectDescHeading {
-    color: #969696;
-    padding-right: 3vw;
-  }
-  
-  .hidden {
-    display: none;
-  }
-  
+
   .projectAddressBlock-shellHarbour {
-    border-bottom: 1px solid black;
+    border-bottom: none;
     display: flex;
     flex-direction: column;
-    height: 664px;
-    justify-content: flex-end;
     line-height: 0px;
     margin-left: 60px;
+    margin-top: 40px;
     position: absolute;
-    width: 30vw;
+    z-index: 1;
   }
-  
-  .projectAddress {
-    font-size: 1.4rem;
-    font-weight: 100;
-    padding-bottom: 0.7rem;
-  }
-  
-  @media (max-width: 1210px) {
-    .App {
-      width: 100vw;
-    }
-  
-    .descAndSlider-shellHarbour {
-      box-sizing: border-box;
-      display: flex;
-      flex-direction: column;
-      padding-bottom: 10vh;
-      width: 100%;
-    }
-  
-    .projectAddressBlock-shellHarbour {
-      border-bottom: none;
-      display: flex;
-      flex-direction: column;
-      line-height: 0px;
-      margin-left: 60px;
-      margin-top: 40px;
-      position: absolute;
-      z-index: 1;
-    }
-  
-    .projectAddress {
-      font-size: 1.4rem;
-      font-weight: 100;
-      padding-bottom: 0.7rem;
-      width: 90vw;
-      border-bottom: 1px solid black;
-    }
-  
-    .projectDescription-shellHarbour {
-      /* border: 1px solid orange; */
-      border-top: 1px solid black;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      line-height: normal;
-      margin-left: 60px;
-      position: absolute;
-      top: 97rem;
-      width: 90vw;
-      margin-top: 124vh;
-      padding-top: 10px;
-      padding-bottom: 20px;
-    }
-  
-    .projectDescriptionLong-shellHarbour {
-      padding-top: 0rem;
-        width: 90vw;
-        margin-top: 12.5vh;
-        top: 170.5rem;
-        position: absolute;
-    }
-  
-      .slides {
-      height: 60vh;
-      width: 100%;
-      z-index: 2;
-    }
-  
-    .slideImgs {
-      height: 60vh;
-      width: auto;
-    }
-  
-    .slides > div {
-      height: 60vh;
-      width: auto;
-    }
-  }
-  
-  /* Mobile Phone Size */
-  @media (max-width: 700px) {
-    .descAndSlider-shellHarbour {
-      box-sizing: border-box;
-      display: flex;
-      flex-direction: column;
-      padding-bottom: 5vh;
-      width: 100%;
-      padding-top: 250px;
-    }
-  
-    .projectAddressBlock-shellHarbour {
-      display: flex;
-      flex-direction: column;
-      height: 40vh;
-      line-height: 0px;
-      margin-left: 20px;
-      position: absolute;
-      width: 90vw;
-      z-index: 1;
-      margin-top: 55px;
-    }
-  
-    .projectAddress {
-      font-size: 1.4rem;
-      font-weight: 100;
-      padding-bottom: 0.7rem;
-      width: 90vw;
-    }
-  
-    .projectAddress {
-      font-size: 1rem;
-    }
-    
-    .projectDescription-shellHarbour {
-      /* border: 1px solid orange; */
-      border-top: 1px solid black;
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-start;
-      line-height: normal;
-      margin-left: 20px;
-      padding-top: 10px;
-      position: absolute;
-      /* margin-top: 79rem; */
-      top: 64rem;
-      width: 90vw;
-    }
 
-    .projectDescriptionLong-shellHarbour {
-      padding-left: 0px;
-      padding-top: 10px;
-      margin-left: 20px;
-      width: 90vw;
-      margin-top: 0;
-      top: 134rem;
-    }
-  
-    .projectDescInfo {
-      width: auto;
-    }
-  
-    .treehouseSlider {
-      padding-top: 0vh;
-    }
-  
-    .slides {
-      height: 280px;
-      width: 100%;
-      z-index: 2;
-    }
-  
-    .slideImgs {
-      height: 280px;
-      width: auto;
-    }
-  
-    .slides > div {
-      height: 280px;
-      width: auto;
-    }
+  .projectAddress {
+    width: 90vw;
+    border-bottom: 1px solid black;
   }
-  
-  
+
+  .projectDescription-shellHarbour {
+    top: 2490px;
+    width: 90vw;
+    margin-top: 25vh;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .projectDescriptionLong-shellHarbour {
+    padding-top: 10px;
+    width: 90vw;
+  }
+
+  .slides {
+    height: 60vh;
+    width: 100%;
+    z-index: 2;
+  }
+
+  .slideImgs {
+    height: 60vh;
+    width: auto;
+  }
+
+  .slides > div {
+    height: 60vh;
+    width: auto;
+  }
+}
+
+/* Mobile Phone Size */
+@media (max-width: 700px) {
+  .descAndSlider-shellHarbour {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0vh;
+    width: 100%;
+    padding-top: 25px;
+  }
+
+  .projectAddressBlock-shellHarbour {
+    height: 320px;
+    margin-left: 20px;
+    margin-top: 0px;
+    width: 90vw;
+    padding-top: 0vh;
+  }
+
+  .projectAddress {
+    width: 90vw;
+  }
+
+  .projectDescription-shellHarbour {
+    margin-left: 20px;
+    top: 2093px;
+    margin-top: 0;
+  }
+
+  .shellHarbourSlider {
+    padding-top: 0px;
+  }
+
+  .projectDescInfo {
+    width: auto;
+  }
+
+  .slides {
+    height: 280px;
+    width: 100%;
+    z-index: 2;
+  }
+
+  .slideImgs {
+    height: 280px;
+    width: auto;
+  }
+
+  .slides > div {
+    height: 280px;
+    width: auto;
+  }
+
+  /* Mobile CSS Project Description */
+
+  #projectDescriptionTextMobile {
+    z-index: 100;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #checked.hide {
+    transform: translate3d(-105vw, 0, 0);
+  }
+
+  #checked.show {
+    transform: translate3d(0vw, 0, 0);
+    overflow: hidden;
+  }
+
+  .projectDescriptionLong {
+    line-height: normal;
+    padding-top: 10px;
+  }
+}

@@ -6,11 +6,10 @@ import Architect_TimeLife_2400x1600px_3 from "./TimeAndLifePhotos/Architect_Time
 import Architect_TimeLife_2400x1600px_4 from "./TimeAndLifePhotos/Architect_TimeLife_2400x1600px_4.jpg";
 import Architect_TimeLife_2400x1600px_5 from "./TimeAndLifePhotos/Architect_TimeLife_2400x1600px_5.jpg";
 
-
 function TimeAndLifeSlider() {
   return (
-    <div className="App-ShellHarbour">
-      <div className="slides-ShellHarbour">
+    <div className="App-TimeAndLife">
+      <div className="slides-TimeAndLife">
         <div>
           <img
             src={Architect_TimeLife_2400x1600px_1}
@@ -50,10 +49,6 @@ function TimeAndLifeSlider() {
             className="slideImgs-TimeAndLife"
           />
         </div>
-
-        
-
-        
       </div>
     </div>
   );

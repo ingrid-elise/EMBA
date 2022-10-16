@@ -6,37 +6,32 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  font-size: 13px;
 }
 
 .projectDescription-FulhamRd {
-  /* border: 1px solid orange; */
   border-top: 1px solid black;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
   line-height: normal;
   margin-left: 60px;
   padding-top: 10px;
   position: absolute;
-  top: 95rem; /* distance from top of page, need to adjust this when info is correct */
+  top: 87rem; /* distance from top of page, need to adjust this when info is correct */
   width: 30vw;
 }
 
 .projectDescriptionLong-fulhamRd {
-  padding-top: 33rem;
-  line-height: normal;
-  margin-left: 60px;
-  width: 30vw;
+  padding-top: 20px;
 }
 
 .projectDescInfo {
   width: 20vw;
   float: right;
-  /* border: 1px solid purple; */
 }
 
 .descHeading {
-  /* border: 1px solid blue; */
   line-height: normal;
 }
 
@@ -54,7 +49,7 @@
   font-size: 13px;
 }
 
-.treehouseSlider {
+.fulhamRdSlider {
   height: fit-content;
   padding-top: 7vh;
 }
@@ -72,9 +67,6 @@
   border-bottom: 1px solid black;
   display: flex;
   flex-direction: column;
-  /* height: 664px; */
-  /* height: 71%; */
-  /* height: 64%; */
   height: 600px;
   padding-top: 7vh;
   justify-content: flex-end;
@@ -101,20 +93,23 @@
     flex-direction: column;
     padding-bottom: 10vh;
     width: 100%;
+    padding-top: 180px;
+  }
+
+  .fulhamRdSlider {
+    height: fit-content;
+    padding-top: 110px;
   }
 
   .projectAddressBlock-FulhamRd {
     border-bottom: none;
     display: flex;
     flex-direction: column;
-    /* height: 40vh; */
     line-height: 0px;
     margin-left: 60px;
-    margin-top: 40px;
+    margin-top: 90px;
     position: absolute;
-    /* background-color: blue; */
     z-index: 1;
-    /* width: 50vw; */
   }
 
   .projectAddress {
@@ -126,7 +121,6 @@
   }
 
   .projectDescription-FulhamRd {
-    /* border: 1px solid orange; */
     border-top: 1px solid black;
     display: flex;
     flex-direction: column;
@@ -134,7 +128,7 @@
     line-height: normal;
     margin-left: 60px;
     position: absolute;
-    top: 97rem;
+    top: 1557px;
     width: 90vw;
     margin-top: 25vh;
     padding-top: 10px;
@@ -142,14 +136,11 @@
   }
 
   .projectDescriptionLong-fulhamRd {
-    padding-top: 0rem;
-      width: 90vw;
-      margin-top: 12.5vh;
-      top: 112.5rem;
-      position: absolute;
+    padding-top: 10px;
+    width: 90vw;
   }
 
-    .slides {
+  .slides {
     height: 60vh;
     width: 100%;
     z-index: 2;
@@ -174,52 +165,33 @@
     flex-direction: column;
     padding-bottom: 0vh;
     width: 100%;
-    padding-top: 250px;
+    padding-top: 20px;
   }
 
   .projectAddressBlock-FulhamRd {
-    display: flex;
-    flex-direction: column;
-    height: 40vh;
-    line-height: 0px;
+    height: 320px;
     margin-left: 20px;
     margin-top: 0px;
-    position: absolute;
     width: 90vw;
-    z-index: 1;
+    padding-top: 0vh;
   }
 
   .projectAddress {
-    font-size: 1.4rem;
-    font-weight: 100;
-    padding-bottom: 0.7rem;
-    width: 90vw;
-  }
-  
-  .projectDescription-FulhamRd {
-    /* border: 1px solid orange; */
-    border-top: 1px solid black;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    line-height: normal;
-    margin-left: 20px;
-    padding-top: 10px;
-    position: absolute;
-    top: 69.5rem;
     width: 90vw;
   }
 
-  .projectDescriptionLong-fulhamRd {
-    padding-left: 0px;
-    padding-top: 10px;
+  .projectDescription-FulhamRd {
     margin-left: 20px;
-    width: 90vw;
-    margin-top: -360px;
+    top: 1423px;
+    margin-top: 0;
   }
 
   .projectDescInfo {
     width: auto;
+  }
+
+  .fulhamRdSlider {
+    padding-top: 0px;
   }
 
   .slides {
@@ -237,5 +209,26 @@
     height: 280px;
     width: auto;
   }
-}
 
+  /* Mobile CSS Project Description */
+
+  #projectDescriptionTextMobile {
+    z-index: 100;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #checked.hide {
+    transform: translate3d(-105vw, 0, 0);
+  }
+
+  #checked.show {
+    transform: translate3d(0vw, 0, 0);
+    overflow: hidden;
+  }
+
+  .projectDescriptionLong {
+    line-height: normal;
+    padding-top: 10px;
+  }
+}

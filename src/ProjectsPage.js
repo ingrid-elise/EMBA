@@ -8,7 +8,6 @@ import FulhamRdProject from "./components/FulhamRdProject";
 import ShellHarbourProject from "./components/ShellHarbour/ShellHarbourProject";
 import TimeAndLifeProject from "./components/TimeAndLife/TimeAndLifeProject";
 import BrutonLaneProject from "./components/BrutonLane/BrutonLaneProject";
-// import GreenSquareProject from "./components/GreenSquare/GreenSquareProject";
 import CanterburyHouseProject from "./components/CanterburyHouse/CanterburyHouseProject";
 
 function ProjectsPage() {
@@ -71,19 +70,6 @@ function ProjectsPage() {
               <BrutonLaneProject />
             </div>
           </Scene>
-
-          {/* <div className="sectionGS" />
-          <div id="triggerGS" />
-          <Scene
-            duration={0}
-            classToggle="zapGS"
-            triggerElement="#triggerGS"
-            indicators={false}
-          >
-            <div className="testGS">
-              <GreenSquareProject />
-            </div>
-          </Scene> */}
 
           <div className="sectionCH" />
           <div id="triggerCH" />

@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-size: 13px;
   }
   
   .projectDescription-brutonLane {
@@ -18,7 +19,7 @@
     margin-left: 60px;
     padding-top: 10px;
     position: absolute;
-    top: 268rem; /* distance from top of page, need to adjust this when info is correct */
+    top: 250.5rem; /* distance from top of page, need to adjust this when info is correct */
     width: 30vw;
   }
   
@@ -124,9 +125,9 @@
       line-height: normal;
       margin-left: 60px;
       position: absolute;
-      top: 97rem;
+      top: 199vh;
       width: 90vw;
-      margin-top: 321.3vh;
+      margin-top: 293.1vh;
       padding-top: 10px;
       padding-bottom: 20px;
     }
@@ -134,8 +135,8 @@
     .projectDescriptionLong-brutonLane {
       padding-top: 0rem;
         width: 90vw;
-        margin-top: 12.5vh;
-        top: 286rem;
+        margin-top: 0vh;
+        top: 510vh;
         position: absolute;
     }
   
@@ -158,13 +159,16 @@
   
   /* Mobile Phone Size */
   @media (max-width: 700px) {
+    .sectionBL {
+      height: 0vh;
+    }
+
     .descAndSlider-brutonLane {
       box-sizing: border-box;
       display: flex;
       flex-direction: column;
-      padding-bottom: 5vh;
+      padding-bottom: 0vh;
       width: 100%;
-      padding-top: 250px;
     }
   
     .projectAddressBlock-brutonLane {
@@ -200,7 +204,7 @@
       margin-left: 20px;
       padding-top: 10px;
       position: absolute;
-      top: 58.7rem;
+      top: 135.5vh;
       width: 90vw;
     }
 
@@ -210,14 +214,15 @@
       margin-left: 20px;
       width: 90vw;
       margin-top: 0;
-      top: 227.5rem;
+      top: 478vh;
     }
   
     .projectDescInfo {
       width: auto;
     }
-  
-    .treehouseSlider {
+
+    .brutonLaneSlider {
+      height: fit-content;
       padding-top: 0vh;
     }
   
