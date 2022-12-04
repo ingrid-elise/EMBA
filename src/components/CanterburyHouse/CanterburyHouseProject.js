@@ -56,9 +56,7 @@ function CanterburyHouseProject() {
                   contractor="-"
                   contractValue="-"
                 />
-              </div>
-              <div className="projectDescriptionLong-canterburyHouse">
-                <p>
+                <p className="projectDescriptionLong-canterburyHouse">
                   Concept and developed design for a new 33 storey high-rise
                   residential tower in Croydon’s core tall building zone. The
                   proposal incorporates 2 amenity floors as part of a ground

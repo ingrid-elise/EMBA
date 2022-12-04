@@ -52,9 +52,7 @@ function TimeAndLifeProject() {
                   contractor="Overbury"
                   contractValue="£2.4m"
                 />
-              </div>
-              <div className="projectDescriptionLong-timeAndLife">
-                <p>
+                <p className="projectDescriptionLong-timeAndLife">
                   Office refurbishment of a refurbishment of an early modernist
                   grade II* listed building of historic significance in Mayfair,
                   London. The building was designed by Sir Hugh Casson and

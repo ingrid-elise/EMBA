@@ -40,9 +40,7 @@ function GreenSquareProject() {
                   contractor="Overbury"
                   contractValue="£2.4m"
                 />
-              </div>
-              <div className="projectDescriptionLong-greenSquare">
-                <p>
+                <p className="projectDescriptionLong-greenSquare">
                   Office refurbishment of a refurbishment of an early modernist
                   grade II* listed building of historic significance in Mayfair,
                   London. The building was designed by Sir Hugh Casson and

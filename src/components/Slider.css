@@ -23,12 +23,13 @@
 .slides > div {
   display: flex;
   flex-shrink: 0;
-  height: 600px;
+  /* height: 600px; */
+  height: 50vh;
   width: auto;
   scroll-snap-align: start;
   scroll-behavior: smooth;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   font-size: 100px;
   /* border: pink 1px solid; */
 }
@@ -37,7 +38,7 @@
   box-sizing: border-box; /* ensures padding and border are included in the total width and height of the elements. */
   padding-bottom: 10vh; /* adds padding between projects */
   width: auto;
-  padding-top: 25px;
+  /* padding-top: 25px; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -54,8 +55,12 @@
   margin-left: 60px;
   padding-top: 0.7rem;
   position: absolute;
-  top: 31rem;
+  /* top: 31rem; */
+  margin-top: 13rem;
+  /* margin-top: 20vh; */
+  /* margin-top: 13%; */
   width: 30vw;
+
 }
 
 .projectDescriptionBreif {
@@ -93,7 +98,7 @@
 
 .treehouseSlider {
   height: fit-content;
-  padding-top: 7vh;
+  /* padding-top: 7vh; */
   /* width: 100vw; */
 }
 
@@ -104,15 +109,14 @@
 .projectAddressBlock {
   border-bottom: 1px solid black;
   display: flex;
-  flex-direction: column;
-  /* height: 71vh; */
-  /* height: 664px; */
-  height: 71%;
-  justify-content: flex-end;
+  flex-direction: column-reverse;
+  height: 600px;
+  /* padding-top: 7vh; */
   line-height: 0px;
   margin-left: 60px;
   position: absolute;
   width: 30vw;
+
 }
 
 .projectAddress {
@@ -131,7 +135,7 @@
   display: block;
   width: 14px;
   height: 40px;
-  margin-top: -80px;
+  margin-top: -42vh;
   margin-right: 60px;
 }
 
@@ -363,6 +367,7 @@
     border: none;
     font-weight: 200;
     font-size: 25px;
+    z-index: 5;
   }
 
   .readMoreButtonDiv {
@@ -370,20 +375,12 @@
     flex-direction: row;
     justify-content: flex-end;
     padding-right: 10px;
-    padding-top: 30px;
+    padding-top: 4vh;
   }
 
   .readMoreButtonDiv::after {
     display: none;
   }
-
-  /* .projectAddressBlock {
-    display: flex;
-    flex-direction: column;
-    height: 320px;
-    margin-left: 20px;
-    width: 90vw;
-  } */
 
   .projectAddressBlock {
     display: flex;
@@ -391,6 +388,7 @@
     height: 30px;
     margin-left: 20px;
     width: 90vw;
+    padding-top: 7vh;
   }
 
   .projectAddress {

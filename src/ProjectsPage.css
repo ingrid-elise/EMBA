@@ -152,7 +152,7 @@ body {
 
 /* Time and Life */
 .sectionTAL {
-  height: 15vh;
+  height: 0vh;
 }
 
 .testTAL {
@@ -168,7 +168,7 @@ body {
 
 /* Bruton Lane */
 .sectionBL {
-  height: 15vh;
+  height: 0vh;
 }
 
 .testBL {
@@ -184,7 +184,7 @@ body {
 
 /* Green Square */
 .sectionGS {
-  height: 15vh;
+  height: 0vh;
 }
 
 .testGS {
@@ -200,7 +200,7 @@ body {
 
 /* Canterbury House */
 .sectionCH {
-  height: 15vh;
+  height: 0vh;
 }
 
 .testCH {

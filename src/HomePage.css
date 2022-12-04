@@ -31,7 +31,7 @@ p {
 .number {
   font-size: 20px;
   font-weight: 300;
-  margin-top: 57px;
+  padding-top: 59px;
 }
 
 .homePageLinks {
@@ -41,28 +41,29 @@ p {
 }
 
 .singleLinkPractice {
+  padding-top: 43px;
   position: relative;
   line-height: 0.60;
   font-weight: 200;
   font-size: 65px;
   margin-left: 30px;
-  margin-bottom: 43px;
   color: white;
   text-decoration: none;
 }
 
 .singleLinkWorkTogether {
+  padding-top: 43px;
   position: relative;
   line-height: 0.60;
   font-weight: 200;
   font-size: 65px;
   margin-left: 30px;
-  margin-bottom: 43px;
   color: white;
   text-decoration: none;
 }
 
 .singleLinkProjects {
+  padding-top: 43px;
   position: relative;
   line-height: 0.60;
   font-weight: 200;
@@ -161,15 +162,16 @@ p {
   .singleLinkWorkTogether {
     font-size: 40px;
     margin-left: 10px;
+    padding-top: 1px;
   }
 
-  .singleLinkPractice {
-    margin-bottom: 52px;
+  .singleLinkProjects {
+    padding-top: 62px;
   }
 
-  .singleLinkWorkTogether {
-    margin-bottom: 58px;
-  }
+
+
+ 
 
   .singleLinkWorkTogether:after,
   .singleLinkPractice:after,

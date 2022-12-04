@@ -2,7 +2,7 @@
     box-sizing: border-box; /* ensures padding and border are included in the total width and height of the elements. */
     padding-bottom: 10vh; /* adds padding between projects */
     width: auto;
-    padding-top: 25px;
+    /* padding-top: 25px; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -12,21 +12,19 @@
   .projectDescription-canterburyHouse {
     border-top: 1px solid black;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     line-height: normal;
     margin-left: 60px;
     padding-top: 10px;
     position: absolute;
-    top: 309rem; /* distance from top of page, need to adjust this when info is correct */
+    /*top: 309rem; /* distance from top of page, need to adjust this when info is correct */
+    margin-top: 21rem;
     width: 30vw;
   }
   
   .projectDescriptionLong-canterburyHouse {
-    padding-top: 34rem;
-    line-height: normal;
-    margin-left: 60px;
-    width: 30vw;
+    padding-top: 20px;
   }
   
   .projectDescInfo {
@@ -53,7 +51,7 @@
   
   .canterburyHouseSlider {
     height: fit-content;
-    padding-top: 7vh;
+    /* padding-top: 7vh; */
   }
   
   .projectDescHeading {
@@ -68,9 +66,10 @@
   .projectAddressBlock-canterburyHouse {
     border-bottom: 1px solid black;
     display: flex;
-    flex-direction: column;
-    height: 664px;
-    justify-content: flex-end;
+    flex-direction: column-reverse;
+    height: 600px;
+    /* padding-top: 7vh; */
+    /* justify-content: flex-end; */
     line-height: 0px;
     margin-left: 60px;
     position: absolute;
@@ -177,6 +176,7 @@
       width: 90vw;
       z-index: 1;
       margin-top: 55px;
+      padding-top: 7vh;
     }
   
     .projectAddress {

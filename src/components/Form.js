@@ -39,18 +39,36 @@ function Form() {
   return (
     <div className="formContainer">
       <form className="contact-form" onSubmit={sendEmail}>
-        <input type="text" name="user_name" placeholder="Name" required />
+        <input
+          type="text"
+          name="user_name"
+          placeholder="Name"
+          autoComplete="off"
+          required
+        />
         <div className="shortLineBelow"></div>
         <input
           type="text"
           name="contact_number"
           placeholder="Phone Number"
+          autoComplete="off"
           required
         />
         <div className="shortLineBelow"></div>
-        <input type="email" name="user_email" placeholder="Email" required />
+        <input
+          type="email"
+          name="user_email"
+          placeholder="Email"
+          autoComplete="off"
+          required
+        />
         <div className="shortLineBelow"></div>
-        <textarea name="message" placeholder="Message" required />
+        <textarea
+          name="message"
+          placeholder="Message"
+          autoComplete="off"
+          required
+        />
         <div className="shortLineBelow"></div>
         <div className="buttonDiv">
           <input
@@ -62,7 +80,6 @@ function Form() {
           {showModal ? <Modal setShowModal={setShowModal} /> : null}
         </div>
       </form>
-
     </div>
   );
 }

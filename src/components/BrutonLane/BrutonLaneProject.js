@@ -54,9 +54,7 @@ function BrutonLaneProject() {
                   contractor="-"
                   contractValue="£6.9m"
                 />
-              </div>
-              <div className="projectDescriptionLong-brutonLane">
-                <p>
+                <p className="projectDescriptionLong-brutonLane">
                   A challenging, high-value, seven storey mixed use development
                   combining restaurant, office and residential uses on an
                   especially constrained site in Mayfair, London. The building’s

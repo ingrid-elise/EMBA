@@ -34,7 +34,7 @@ textarea:focus {
 }
 
 ::placeholder {
-  color: black; /*  or white? */
+  color: black;
 }
 
 .shortLineBelow {
@@ -48,7 +48,7 @@ textarea:focus {
   padding: 9px 44px;
   border: 1px solid black;
   cursor: pointer;
-  margin-top: 62px;
+  margin-top: 5vh;
   background-color: #bd9581;
   color: black;
   font-family: HelveticaNeue;
@@ -87,6 +87,7 @@ textarea:focus {
     width: 65vw;
     height: auto;
     padding: 20px;
+    margin-top: 60px;
   }
 
   input,
@@ -99,7 +100,7 @@ textarea:focus {
     padding: 9px 0px;
     border: 1px solid black;
     cursor: pointer;
-    margin-top: 62px;
+    margin-top: 5vh;
     background-color: #bd9581;
     color: black;
     font-family: HelveticaNeue;

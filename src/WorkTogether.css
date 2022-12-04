@@ -258,7 +258,6 @@ body {
     display: flex;
     flex-direction: column;
     padding-top: 20px;
-    /* justify-content: center; */
     align-content: center;
   }
 
@@ -268,10 +267,12 @@ body {
 
   .workTogetherForm {
     width: 85vw;
-    margin-left: 50px;
-    margin-top: 60px;
-    margin-bottom: 40px;
     z-index: 5;
+
+    display: flex;
+    align-content: center;
+    margin-right: 0;
+    margin-left: 50px;
   }
 
   .workTogetherDropdowns {
@@ -282,14 +283,7 @@ body {
 
 .paragraphTextWorkTogether {
   width: auto;
-  /* margin-left: -150px; */
 }
-
-/* .paragraphTextPracticePage {
-  margin-top: 5px;
-  margin-left: -100px;
-  width: auto;
-} */
 
   .formContainer {
     padding: 20px;
@@ -307,7 +301,7 @@ body {
     padding-bottom: 5px;
     padding-left: 0px;
     font-size: 45px;
-    margin-top: 100px; /* same as practice page but does it look too low? */
+    margin-top: 100px;
   }
 
   #sectorsHover{
