@@ -8,29 +8,26 @@
   .slides-TimeAndLife {
     display: flex;
     width: 100%;
-    height: 600px;
+    height: 60vh;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    /* border: red 1px solid; */
   }
   
   .slideImgs-TimeAndLife {
-    height: 600px;
+    height: 60vh;
     width: auto;
-    /* border: yellow 1px solid; */
   }
   
   .slides-TimeAndLife > div {
     display: flex;
     flex-shrink: 0;
-    height: 600px;
+    height: 60vh;
     width: auto;
     scroll-snap-align: start;
     scroll-behavior: smooth;
     justify-content: center;
     align-items: center;
     font-size: 100px;
-    /* border: pink 1px solid; */
   }
   
   @media (max-width: 1210px) {

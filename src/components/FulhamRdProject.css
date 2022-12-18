@@ -18,8 +18,7 @@
   margin-left: 60px;
   padding-top: 10px;
   position: absolute;
-  /*top: 87rem; /* distance from top of page, need to adjust this when info is correct */
-  margin-top: 20rem;
+  margin-top: 0rem;
   width: 30vw;
 }
 
@@ -68,9 +67,7 @@
   border-bottom: 1px solid black;
   display: flex;
   flex-direction: column-reverse;
-  height: 600px;
-  /* padding-top: 7vh; */
-  /* justify-content: flex-end; */
+  height: 60vh;
   line-height: 0px;
   margin-left: 60px;
   position: absolute;
@@ -94,23 +91,17 @@
     flex-direction: column;
     padding-bottom: 10vh;
     width: 100%;
-    padding-top: 180px;
+    padding-top: 260px;
   }
 
   .fulhamRdSlider {
     height: fit-content;
-    padding-top: 110px;
   }
 
   .projectAddressBlock-FulhamRd {
     border-bottom: none;
-    display: flex;
-    flex-direction: column;
-    line-height: 0px;
-    margin-left: 60px;
-    margin-top: 90px;
-    position: absolute;
     z-index: 1;
+    height: 63vh;
   }
 
   .projectAddress {
@@ -129,11 +120,10 @@
     line-height: normal;
     margin-left: 60px;
     position: absolute;
-    top: 1557px;
     width: 90vw;
-    margin-top: 25vh;
-    padding-top: 10px;
     padding-bottom: 20px;
+    padding-top: 0.7rem;
+    margin-top: 62.95vh;
   }
 
   .projectDescriptionLong-fulhamRd {

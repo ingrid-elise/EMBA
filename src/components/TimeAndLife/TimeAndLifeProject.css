@@ -2,7 +2,6 @@
     box-sizing: border-box; /* ensures padding and border are included in the total width and height of the elements. */
     padding-bottom: 10vh; /* adds padding between projects */
     width: auto;
-    /* padding-top: 25px; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -18,8 +17,7 @@
     margin-left: 60px;
     padding-top: 10px;
     position: absolute;
-    /*top: 193.5rem; /* distance from top of page, need to adjust this when info is correct */
-    margin-top: 21rem;
+    margin-top: 0rem;
     width: 30vw;
   }
   
@@ -51,7 +49,6 @@
   
   .timeAndLifeSlider {
     height: fit-content;
-    /* padding-top: 7vh; */
   }
   
   .projectDescHeading {
@@ -67,9 +64,7 @@
     border-bottom: 1px solid black;
     display: flex;
     flex-direction: column-reverse;
-    height: 600px;
-    /* padding-top: 7vh;
-    justify-content: flex-end; */
+    height: 60vh;
     line-height: 0px;
     margin-left: 60px;
     position: absolute;
@@ -92,22 +87,15 @@
       display: flex;
       flex-direction: column;
       padding-bottom: 10vh;
+      padding-top: 260px;
       width: 100%;
-    }
-
-    .timeAndLifeSlider {
-      padding-top: 11vh;
     }
   
     .projectAddressBlock-timeAndLife {
       border-bottom: none;
       display: flex;
-      flex-direction: column;
-      line-height: 0px;
-      margin-left: 60px;
-      margin-top: 80px;
-      position: absolute;
       z-index: 1;
+      height: 63vh;
     }
   
     .projectAddress {
@@ -119,7 +107,6 @@
     }
   
     .projectDescription-timeAndLife {
-      /* border: 1px solid orange; */
       border-top: 1px solid black;
       display: flex;
       flex-direction: column;
@@ -127,19 +114,15 @@
       line-height: normal;
       margin-left: 60px;
       position: absolute;
-      top: 191.4vh;
       width: 90vw;
-      margin-top: 202.3vh;
-      padding-top: 10px;
+      padding-top: 0.7rem;
+      margin-top: 62.95vh;
       padding-bottom: 20px;
     }
   
     .projectDescriptionLong-timeAndLife {
-      padding-top: 0rem;
-        width: 90vw;
-        margin-top: 0vh;
-        top: 411vh;
-        position: absolute;
+      padding-top: 10px;
+      width: 90vw;
     }
   
       .slides {
@@ -195,7 +178,6 @@
     }
     
     .projectDescription-timeAndLife {
-      /* border: 1px solid orange; */
       border-top: 1px solid black;
       display: flex;
       flex-direction: row;
@@ -223,10 +205,6 @@
   
     .projectDescInfo {
       width: auto;
-    }
-
-    .timeAndLifeSlider {
-      padding-top: 0vh;
     }
   
     .slides {

@@ -8,23 +8,21 @@
 .slides {
   display: flex;
   width: 100%;
-  height: 600px;
+  height: 60vh;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   /* border: red 1px solid; */
 }
 
 .slideImgs {
-  height: 600px;
+  height: 60vh;
   width: auto;
-  /* border: yellow 1px solid; */
 }
 
 .slides > div {
   display: flex;
   flex-shrink: 0;
-  /* height: 600px; */
-  height: 50vh;
+  height: 60vh;
   width: auto;
   scroll-snap-align: start;
   scroll-behavior: smooth;
@@ -38,7 +36,6 @@
   box-sizing: border-box; /* ensures padding and border are included in the total width and height of the elements. */
   padding-bottom: 10vh; /* adds padding between projects */
   width: auto;
-  /* padding-top: 25px; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -49,18 +46,13 @@
   border-top: 1px solid black;
   display: flex;
   flex-direction: column;
-  /* height: 600px; */
   justify-content: flex-start;
   line-height: normal;
   margin-left: 60px;
   padding-top: 0.7rem;
   position: absolute;
-  /* top: 31rem; */
-  margin-top: 13rem;
-  /* margin-top: 20vh; */
-  /* margin-top: 13%; */
+  margin-top: 0rem;
   width: 30vw;
-
 }
 
 .projectDescriptionBreif {
@@ -110,8 +102,7 @@
   border-bottom: 1px solid black;
   display: flex;
   flex-direction: column-reverse;
-  height: 600px;
-  /* padding-top: 7vh; */
+  height: 60vh;
   line-height: 0px;
   margin-left: 60px;
   position: absolute;
@@ -135,7 +126,7 @@
   display: block;
   width: 14px;
   height: 40px;
-  margin-top: -42vh;
+  margin-top: -7vh;
   margin-right: 60px;
 }
 
@@ -271,12 +262,11 @@
   .projectAddressBlock {
     border-bottom: none;
     display: flex;
-    flex-direction: column;
     line-height: 0px;
     margin-left: 60px;
     position: absolute;
     z-index: 1;
-    height: 600px;
+    height: 63vh;
   }
 
   .projectAddress {
@@ -295,10 +285,10 @@
     line-height: normal;
     margin-left: 60px;
     position: absolute;
-    top: 566px;
     width: 90vw;
-    margin-top: 25vh;
-    padding-top: 10px;
+    /* margin-top: 53.75rem; */
+    margin-top: 62.95vh;
+    padding-top: 0.7rem;
     padding-bottom: 20px;
   }
 

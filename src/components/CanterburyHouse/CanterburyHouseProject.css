@@ -18,8 +18,7 @@
     margin-left: 60px;
     padding-top: 10px;
     position: absolute;
-    /*top: 309rem; /* distance from top of page, need to adjust this when info is correct */
-    margin-top: 21rem;
+    margin-top: 0rem;
     width: 30vw;
   }
   
@@ -67,9 +66,7 @@
     border-bottom: 1px solid black;
     display: flex;
     flex-direction: column-reverse;
-    height: 600px;
-    /* padding-top: 7vh; */
-    /* justify-content: flex-end; */
+    height: 60vh;
     line-height: 0px;
     margin-left: 60px;
     position: absolute;
@@ -92,18 +89,15 @@
       display: flex;
       flex-direction: column;
       padding-bottom: 10vh;
+      padding-top: 260px;
       width: 100%;
     }
   
     .projectAddressBlock-canterburyHouse {
       border-bottom: none;
       display: flex;
-      flex-direction: column;
-      line-height: 0px;
-      margin-left: 60px;
-      margin-top: 40px;
-      position: absolute;
       z-index: 1;
+      height: 63vh;
     }
   
     .projectAddress {
@@ -115,7 +109,6 @@
     }
   
     .projectDescription-canterburyHouse {
-      /* border: 1px solid orange; */
       border-top: 1px solid black;
       display: flex;
       flex-direction: column;
@@ -123,19 +116,15 @@
       line-height: normal;
       margin-left: 60px;
       position: absolute;
-      top: 107vh;
       width: 90vw;
-      margin-top: 483.8vh;
-      padding-top: 10px;
+      padding-top: 0.7rem;
+      margin-top: 62.95vh;
       padding-bottom: 20px;
     }
   
     .projectDescriptionLong-canterburyHouse {
-      padding-top: 0rem;
-        width: 90vw;
-        margin-top: 0vh;
-        top: 608vh;
-        position: absolute;
+      padding-top: 10px;
+      width: 90vw;
     }
   
       .slides {

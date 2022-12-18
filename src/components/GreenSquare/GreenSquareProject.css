@@ -18,8 +18,7 @@
     margin-left: 60px;
     padding-top: 10px;
     position: absolute;
-    /*top: 290rem; /* distance from top of page, need to adjust this when info is correct */
-    margin-top: 20rem;
+    margin-top: 10rem;
     width: 30vw;
   }
   
@@ -97,7 +96,6 @@
     .projectAddressBlock-greenSquare {
       border-bottom: none;
       display: flex;
-      flex-direction: column;
       line-height: 0px;
       margin-left: 60px;
       margin-top: 40px;
