@@ -27,11 +27,9 @@ function Form() {
         (result) => {
           // alert("success");
           sentForm();
-          // console.log(result.text);
         },
         (error) => {
           alert("error");
-          // console.log(error.text);
         }
       );
   }

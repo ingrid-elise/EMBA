@@ -21,7 +21,8 @@ textarea {
   resize: vertical;
   display: block;
   resize: none;
-  font-family: HelveticaNeue;
+  font-family: 'HelveticaNeue', sans-serif;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 
 textarea {
