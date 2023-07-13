@@ -77,7 +77,8 @@ p {
   content: "";
   position: absolute;
   left: 0;
-  bottom: 5px;
+  bottom: 5%;
+  /* changed this from 5px to 5% */
   width: 300px;
   height: 1px;
   background-color: white;

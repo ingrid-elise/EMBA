@@ -5,7 +5,7 @@ import { Controller, Scene } from "react-scrollmagic";
 import { Link } from "react-router-dom";
 import HeaderProjectsPage from "./components/HeaderProjectsPage";
 import FulhamRdProject from "./components/FulhamRdProject";
-import ShellHarbourProject from "./components/ShellHarbour/ShellHarbourProject";
+// import ShellHarbourProject from "./components/ShellHarbour/ShellHarbourProject";
 import TimeAndLifeProject from "./components/TimeAndLife/TimeAndLifeProject";
 import BrutonLaneProject from "./components/BrutonLane/BrutonLaneProject";
 import CanterburyHouseProject from "./components/CanterburyHouse/CanterburyHouseProject";
@@ -32,7 +32,7 @@ function ProjectsPage() {
             </div>
           </Scene>
 
-          <div className="sectionSH" />
+          {/* <div className="sectionSH" />
           <div id="triggerSH" />
           <Scene
             duration={0}
@@ -43,7 +43,7 @@ function ProjectsPage() {
             <div className="testSH">
               <ShellHarbourProject />
             </div>
-          </Scene>
+          </Scene> */}
 
           <div className="sectionTAL" />
           <div id="triggerTAL" />
